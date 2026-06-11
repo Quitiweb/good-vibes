@@ -1,0 +1,25 @@
+---
+layout: layouts/base.njk
+lang: es
+permalink: /blog/
+eleventyComputed:
+  pageTitle: "Blog — Good Vibes Apartments"
+  pageDesc: "Guías y consejos para huéspedes y propietarios de apartamentos turísticos."
+---
+{% set t = i18n[lang] %}
+<section class="section">
+  <div class="container">
+    <h1>{{ t.blog.title }}</h1>
+    <p class="section-sub">{{ t.blog.subtitle }}</p>
+    <div class="blog-list">
+      {%- for post in collections.posts | reverse %}
+      <article class="blog-card">
+        <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
+        <p class="blog-meta">{{ post.date | readableDate(lang) }}</p>
+        <p>{{ post.data.description }}</p>
+        <a href="{{ post.url | url }}">{{ t.blog.readMore }} →</a>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,19 @@
+{% set t = i18n[lang] %}
+<article class="property-card">
+  <a class="card-photo" href="{{ (langmeta[lang].propertiesDir + prop.slug + '/') | url }}">
+    <img src="{{ prop.photos[0].src }}" alt="{{ prop.name[lang] }}" loading="lazy" width="600" height="400">
+    <span class="photo-count">📷 {{ prop.photos | length }}</span>
+  </a>
+  <div class="card-body">
+    <h3><a href="{{ (langmeta[lang].propertiesDir + prop.slug + '/') | url }}">{{ prop.name[lang] }}</a></h3>
+    <p class="card-zone">📍 {{ prop.zone }}, {{ site.city }}</p>
+    <ul class="specs">
+      <li>{{ prop.guests }} {{ t.property.guests }}</li>
+      <li>{{ prop.bedrooms }} {{ t.property.bedrooms }}</li>
+      <li>{{ prop.baths }} {{ t.property.baths }}</li>
+      <li>{{ prop.sqm }} {{ t.property.sqm }}</li>
+    </ul>
+    <p class="card-desc">{{ prop.description[lang] }}</p>
+    <a class="btn btn-outline" href="{{ (langmeta[lang].propertiesDir + prop.slug + '/') | url }}">{{ t.properties.viewDetails }}</a>
+  </div>
+</article>

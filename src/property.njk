@@ -1,0 +1,94 @@
+---
+pagination:
+  data: propertyPages
+  size: 1
+  alias: pp
+permalink: "{{ pp.permalink }}"
+layout: layouts/base.njk
+eleventyComputed:
+  lang: "{{ pp.lang }}"
+  pageTitle: "{{ pp.prop.name[pp.lang] }} · {{ pp.prop.zone }} — Good Vibes Apartments"
+  pageDesc: "{{ pp.prop.description[pp.lang] }}"
+  ogImage: "{{ pp.prop.photos[0].src }}"
+  altUrls:
+    es: "{{ langmeta.es.propertiesDir }}{{ pp.prop.slug }}/"
+    en: "{{ langmeta.en.propertiesDir }}{{ pp.prop.slug }}/"
+    fr: "{{ langmeta.fr.propertiesDir }}{{ pp.prop.slug }}/"
+    it: "{{ langmeta.it.propertiesDir }}{{ pp.prop.slug }}/"
+---
+{% set t = i18n[lang] %}
+{% set prop = pp.prop %}
+{% set busy = availability[prop.slug].busy if availability[prop.slug] else [] %}
+
+<article class="property-page">
+  <div class="container">
+    <a class="back-link" href="{{ langmeta[lang].home | url }}#apartments">{{ t.property.backToList }}</a>
+
+    <header class="property-header">
+      <h1>{{ prop.name[lang] }}</h1>
+      <p class="card-zone">📍 {{ prop.zone }}, {{ site.city }}</p>
+    </header>
+
+    <div class="gallery" aria-label="{{ prop.name[lang] }}">
+      {%- for photo in prop.photos %}
+      <figure class="gallery-item">
+        <img src="{{ photo.src }}" alt="{{ photo.alt }}" {{ 'loading="lazy"' | safe if not loop.first }} width="1200" height="800">
+      </figure>
+      {%- endfor %}
+    </div>
+    {% if prop.example %}<p class="demo-note">{{ t.property.photosDemo }}</p>{% endif %}
+
+    <div class="property-layout">
+      <div class="property-main">
+        <ul class="specs specs-lg">
+          <li>👥 {{ prop.guests }} {{ t.property.guests }}</li>
+          <li>🛏 {{ prop.bedrooms }} {{ t.property.bedrooms }} · {{ prop.beds }} {{ t.property.beds }}</li>
+          <li>🛁 {{ prop.baths }} {{ t.property.baths }}</li>
+          <li>📐 {{ prop.sqm }} {{ t.property.sqm }}</li>
+        </ul>
+
+        <p class="property-desc">{{ prop.description[lang] }}</p>
+
+        <h2>{{ t.property.amenities }}</h2>
+        <ul class="amenities">
+          {%- for f in prop.features %}
+          <li>{{ t.features[f] }}</li>
+          {%- endfor %}
+        </ul>
+
+        <h2 id="availability">{{ t.property.availability }}</h2>
+        <div class="calendar" data-calendar></div>
+        <div class="calendar-legend">
+          <span class="legend-item"><span class="dot dot-free"></span>{{ t.property.legendFree }}</span>
+          <span class="legend-item"><span class="dot dot-busy"></span>{{ t.property.legendBusy }}</span>
+        </div>
+        <p class="availability-note">{{ t.property.availabilityNote }}</p>
+      </div>
+
+      <aside class="booking-box">
+        <h2>{{ t.property.bookOn }}…</h2>
+        <a class="btn btn-airbnb" href="{{ prop.airbnb }}" rel="noopener nofollow" target="_blank">{{ t.property.bookAirbnb }}</a>
+        <a class="btn btn-booking" href="{{ prop.booking }}" rel="noopener nofollow" target="_blank">{{ t.property.bookBooking }}</a>
+        <a class="btn btn-outline" href="https://wa.me/{{ site.whatsapp }}" rel="noopener">💬 WhatsApp</a>
+      </aside>
+    </div>
+  </div>
+</article>
+
+<script type="application/json" id="availability-data">{{ busy | jsonify | safe }}</script>
+<script type="application/ld+json">
+{{ {
+  "@context": "https://schema.org",
+  "@type": "Accommodation",
+  "name": prop.name[lang],
+  "description": prop.description[lang],
+  "url": site.url + page.url,
+  "image": prop.photos[0].src,
+  "numberOfBedrooms": prop.bedrooms,
+  "numberOfBathroomsTotal": prop.baths,
+  "occupancy": { "@type": "QuantitativeValue", "maxValue": prop.guests, "unitCode": "C62" },
+  "floorSize": { "@type": "QuantitativeValue", "value": prop.sqm, "unitCode": "MTK" },
+  "address": { "@type": "PostalAddress", "addressLocality": site.city, "addressCountry": "ES" }
+} | jsonify | safe }}
+</script>
+<script src="{{ '/assets/js/calendar.js' | url }}" defer></script>

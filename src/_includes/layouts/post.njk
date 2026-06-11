@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+---
+{% set t = i18n[lang] %}
+<article class="post container">
+  <a class="back-link" href="{{ '/blog/' | url }}">{{ t.blog.back }}</a>
+  <h1>{{ title }}</h1>
+  <p class="blog-meta">{{ page.date | readableDate(lang) }} · Good Vibes Apartments</p>
+  {{ content | safe }}
+</article>

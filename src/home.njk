@@ -1,0 +1,64 @@
+---
+pagination:
+  data: site.langs
+  size: 1
+  alias: lang
+permalink: "{{ langmeta[lang].home }}"
+layout: layouts/base.njk
+eleventyComputed:
+  altUrls:
+    es: "/"
+    en: "/en/"
+    fr: "/fr/"
+    it: "/it/"
+---
+{% set t = i18n[lang] %}
+
+<section class="hero">
+  <div class="container">
+    <h1>{{ t.hero.title }}</h1>
+    <p class="hero-sub">{{ t.hero.subtitle }}</p>
+    <a class="btn btn-primary" href="#apartments">{{ t.hero.cta }}</a>
+  </div>
+</section>
+
+<section id="apartments" class="section">
+  <div class="container">
+    <h2>{{ t.properties.title }}</h2>
+    <p class="section-sub">{{ t.properties.subtitle }}</p>
+    <div class="property-grid">
+      {%- for prop in properties %}
+      {% include "partials/property-card.njk" %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="owners" class="section section-alt">
+  <div class="container owners-grid">
+    <div>
+      <h2>{{ t.owners.title }}</h2>
+      <p>{{ t.owners.text }}</p>
+      <ul class="checklist">
+        {%- for b in t.owners.bullets %}
+        <li>{{ b }}</li>
+        {%- endfor %}
+      </ul>
+      <a class="btn btn-primary" href="https://wa.me/{{ site.whatsapp }}" rel="noopener">{{ t.owners.cta }}</a>
+    </div>
+    <div class="owners-photo">
+      <img src="https://picsum.photos/seed/gv-owners/900/700" alt="" loading="lazy" width="900" height="700">
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="container contact-box">
+    <h2>{{ t.contact.title }}</h2>
+    <p>{{ t.contact.text }}</p>
+    <div class="contact-actions">
+      <a class="btn btn-primary" href="https://wa.me/{{ site.whatsapp }}" rel="noopener">💬 {{ t.contact.whatsapp }}</a>
+      <a class="btn btn-outline" href="mailto:{{ site.email }}">✉️ {{ t.contact.email }}</a>
+    </div>
+  </div>
+</section>
