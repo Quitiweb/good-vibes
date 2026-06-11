@@ -1,0 +1,6 @@
+{
+  "es": { "home": "/", "propertiesDir": "/apartamentos/", "locale": "es_ES" },
+  "en": { "home": "/en/", "propertiesDir": "/en/apartments/", "locale": "en_GB" },
+  "fr": { "home": "/fr/", "propertiesDir": "/fr/appartements/", "locale": "fr_FR" },
+  "it": { "home": "/it/", "propertiesDir": "/it/appartamenti/", "locale": "it_IT" }
+}

@@ -1,0 +1,138 @@
+[
+  {
+    "slug": "centro-historico",
+    "example": true,
+    "name": { "es": "Good Vibes Centro Histórico", "en": "Good Vibes Old Town", "fr": "Good Vibes Centre Historique", "it": "Good Vibes Centro Storico" },
+    "zone": "Centro Histórico",
+    "guests": 4, "bedrooms": 2, "beds": 3, "baths": 1, "sqm": 65,
+    "features": ["wifi", "ac", "kitchen", "washer", "elevator", "balcony", "tv"],
+    "description": {
+      "es": "A dos pasos de la Catedral y del Museo Picasso. Apartamento luminoso y recién reformado, con balcón a una calle peatonal y todo lo que necesitas para sentirte en casa desde el primer minuto.",
+      "en": "Steps away from the Cathedral and the Picasso Museum. A bright, newly renovated apartment with a balcony over a pedestrian street and everything you need to feel at home from minute one.",
+      "fr": "À deux pas de la cathédrale et du musée Picasso. Appartement lumineux et fraîchement rénové, avec balcon sur une rue piétonne et tout le nécessaire pour vous sentir chez vous dès la première minute.",
+      "it": "A due passi dalla Cattedrale e dal Museo Picasso. Appartamento luminoso e appena ristrutturato, con balcone su una via pedonale e tutto ciò che serve per sentirsi a casa dal primo minuto."
+    },
+    "photos": [
+      { "src": "https://picsum.photos/seed/gv-centro-1/1200/800", "alt": "Salón" },
+      { "src": "https://picsum.photos/seed/gv-centro-2/1200/800", "alt": "Dormitorio principal" },
+      { "src": "https://picsum.photos/seed/gv-centro-3/1200/800", "alt": "Cocina" },
+      { "src": "https://picsum.photos/seed/gv-centro-4/1200/800", "alt": "Balcón" }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/EXAMPLE",
+    "booking": "https://www.booking.com/hotel/es/EXAMPLE.html",
+    "ical": { "airbnb": "", "booking": "" }
+  },
+  {
+    "slug": "soho-malaga",
+    "example": true,
+    "name": { "es": "Good Vibes Soho", "en": "Good Vibes Soho", "fr": "Good Vibes Soho", "it": "Good Vibes Soho" },
+    "zone": "Soho",
+    "guests": 2, "bedrooms": 1, "beds": 1, "baths": 1, "sqm": 45,
+    "features": ["wifi", "ac", "kitchen", "washer", "tv", "workspace"],
+    "description": {
+      "es": "En pleno barrio de las artes, entre el puerto y el centro. Ideal para parejas o para teletrabajar unos días con todo a mano: cafeterías, museos y la playa a 10 minutos andando.",
+      "en": "In the heart of the arts district, between the port and the city centre. Perfect for couples or a few days of remote work with everything at hand: cafés, museums and the beach 10 minutes away on foot.",
+      "fr": "Au cœur du quartier des arts, entre le port et le centre. Idéal pour les couples ou quelques jours de télétravail avec tout à portée de main : cafés, musées et la plage à 10 minutes à pied.",
+      "it": "Nel cuore del quartiere delle arti, tra il porto e il centro. Ideale per coppie o per qualche giorno di smart working con tutto a portata di mano: caffetterie, musei e la spiaggia a 10 minuti a piedi."
+    },
+    "photos": [
+      { "src": "https://picsum.photos/seed/gv-soho-1/1200/800", "alt": "Salón con zona de trabajo" },
+      { "src": "https://picsum.photos/seed/gv-soho-2/1200/800", "alt": "Dormitorio" },
+      { "src": "https://picsum.photos/seed/gv-soho-3/1200/800", "alt": "Baño" }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/EXAMPLE",
+    "booking": "https://www.booking.com/hotel/es/EXAMPLE.html",
+    "ical": { "airbnb": "", "booking": "" }
+  },
+  {
+    "slug": "malagueta-playa",
+    "example": true,
+    "name": { "es": "Good Vibes Malagueta Playa", "en": "Good Vibes Malagueta Beach", "fr": "Good Vibes Plage Malagueta", "it": "Good Vibes Spiaggia Malagueta" },
+    "zone": "La Malagueta",
+    "guests": 6, "bedrooms": 3, "beds": 4, "baths": 2, "sqm": 95,
+    "features": ["wifi", "ac", "kitchen", "washer", "elevator", "terrace", "seaview", "parking", "tv"],
+    "description": {
+      "es": "Terraza con vistas al mar y la playa de la Malagueta a 50 metros. Tres dormitorios amplios, perfecto para familias o grupos que quieren sol, paseo marítimo y espetos al lado de casa.",
+      "en": "A terrace with sea views and La Malagueta beach 50 metres away. Three spacious bedrooms, perfect for families or groups who want sunshine, the seafront promenade and grilled sardines right next door.",
+      "fr": "Terrasse avec vue sur la mer et la plage de la Malagueta à 50 mètres. Trois grandes chambres, parfait pour les familles ou les groupes qui veulent du soleil, la promenade maritime et les fameuses sardines grillées à côté.",
+      "it": "Terrazza con vista mare e la spiaggia della Malagueta a 50 metri. Tre camere spaziose, perfetto per famiglie o gruppi che vogliono sole, lungomare e gli spiedini di sardine a due passi da casa."
+    },
+    "photos": [
+      { "src": "https://picsum.photos/seed/gv-playa-1/1200/800", "alt": "Terraza con vistas" },
+      { "src": "https://picsum.photos/seed/gv-playa-2/1200/800", "alt": "Salón" },
+      { "src": "https://picsum.photos/seed/gv-playa-3/1200/800", "alt": "Dormitorio principal" },
+      { "src": "https://picsum.photos/seed/gv-playa-4/1200/800", "alt": "Cocina" },
+      { "src": "https://picsum.photos/seed/gv-playa-5/1200/800", "alt": "Segundo dormitorio" }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/EXAMPLE",
+    "booking": "https://www.booking.com/hotel/es/EXAMPLE.html",
+    "ical": { "airbnb": "", "booking": "" }
+  },
+  {
+    "slug": "atico-el-palo",
+    "example": true,
+    "name": { "es": "Good Vibes Ático El Palo", "en": "Good Vibes Penthouse El Palo", "fr": "Good Vibes Attique El Palo", "it": "Good Vibes Attico El Palo" },
+    "zone": "El Palo",
+    "guests": 4, "bedrooms": 2, "beds": 2, "baths": 2, "sqm": 78,
+    "features": ["wifi", "ac", "heating", "kitchen", "washer", "terrace", "seaview", "pool", "parking"],
+    "description": {
+      "es": "Ático tranquilo en el barrio marinero de El Palo, con piscina comunitaria y una terraza enorme para desayunar mirando al Mediterráneo. El centro queda a 15 minutos en bus o bici por el paseo.",
+      "en": "A quiet penthouse in the fishing district of El Palo, with a shared pool and a huge terrace for breakfast overlooking the Mediterranean. The city centre is 15 minutes away by bus or by bike along the promenade.",
+      "fr": "Attique tranquille dans le quartier de pêcheurs d'El Palo, avec piscine commune et une immense terrasse pour petit-déjeuner face à la Méditerranée. Le centre est à 15 minutes en bus ou à vélo par la promenade.",
+      "it": "Attico tranquillo nel quartiere marinaro di El Palo, con piscina condominiale e una terrazza enorme per fare colazione guardando il Mediterraneo. Il centro è a 15 minuti in autobus o in bici lungo il lungomare."
+    },
+    "photos": [
+      { "src": "https://picsum.photos/seed/gv-palo-1/1200/800", "alt": "Terraza del ático" },
+      { "src": "https://picsum.photos/seed/gv-palo-2/1200/800", "alt": "Salón" },
+      { "src": "https://picsum.photos/seed/gv-palo-3/1200/800", "alt": "Piscina comunitaria" }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/EXAMPLE",
+    "booking": "https://www.booking.com/hotel/es/EXAMPLE.html",
+    "ical": { "airbnb": "", "booking": "" }
+  },
+  {
+    "slug": "estudio-larios",
+    "example": true,
+    "name": { "es": "Good Vibes Estudio Larios", "en": "Good Vibes Larios Studio", "fr": "Good Vibes Studio Larios", "it": "Good Vibes Studio Larios" },
+    "zone": "Calle Larios",
+    "guests": 2, "bedrooms": 1, "beds": 1, "baths": 1, "sqm": 35,
+    "features": ["wifi", "ac", "kitchen", "elevator", "tv"],
+    "description": {
+      "es": "Estudio coqueto a 30 segundos de Calle Larios. Pequeño por fuera, completísimo por dentro: cocina equipada, cama de matrimonio y la mejor ubicación posible para una escapada urbana.",
+      "en": "A charming studio 30 seconds from Calle Larios. Small on the outside, complete on the inside: equipped kitchen, double bed and the best possible location for a city break.",
+      "fr": "Studio charmant à 30 secondes de la Calle Larios. Petit dehors, très complet dedans : cuisine équipée, lit double et le meilleur emplacement possible pour une escapade urbaine.",
+      "it": "Monolocale grazioso a 30 secondi da Calle Larios. Piccolo fuori, completissimo dentro: cucina attrezzata, letto matrimoniale e la migliore posizione possibile per una fuga in città."
+    },
+    "photos": [
+      { "src": "https://picsum.photos/seed/gv-larios-1/1200/800", "alt": "Estudio" },
+      { "src": "https://picsum.photos/seed/gv-larios-2/1200/800", "alt": "Cocina" },
+      { "src": "https://picsum.photos/seed/gv-larios-3/1200/800", "alt": "Baño" }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/EXAMPLE",
+    "booking": "https://www.booking.com/hotel/es/EXAMPLE.html",
+    "ical": { "airbnb": "", "booking": "" }
+  },
+  {
+    "slug": "familiar-teatinos",
+    "example": true,
+    "name": { "es": "Good Vibes Familiar Teatinos", "en": "Good Vibes Family Teatinos", "fr": "Good Vibes Familial Teatinos", "it": "Good Vibes Famiglia Teatinos" },
+    "zone": "Teatinos",
+    "guests": 5, "bedrooms": 3, "beds": 4, "baths": 2, "sqm": 90,
+    "features": ["wifi", "ac", "heating", "kitchen", "washer", "elevator", "parking", "tv", "petfriendly"],
+    "description": {
+      "es": "Piso amplio y cómodo en zona residencial, con parking incluido y muy bien conectado en metro. La opción perfecta para estancias largas, familias con coche o visitas a la universidad y al hospital.",
+      "en": "A spacious, comfortable flat in a residential area, with parking included and great metro connections. The perfect choice for longer stays, families with a car, or visits to the university and hospital.",
+      "fr": "Appartement spacieux et confortable dans un quartier résidentiel, avec parking inclus et très bien relié en métro. L'option parfaite pour les longs séjours, les familles en voiture ou les visites à l'université et à l'hôpital.",
+      "it": "Appartamento ampio e comodo in zona residenziale, con parcheggio incluso e ben collegato con la metro. La scelta perfetta per soggiorni lunghi, famiglie in auto o visite all'università e all'ospedale."
+    },
+    "photos": [
+      { "src": "https://picsum.photos/seed/gv-teatinos-1/1200/800", "alt": "Salón comedor" },
+      { "src": "https://picsum.photos/seed/gv-teatinos-2/1200/800", "alt": "Dormitorio principal" },
+      { "src": "https://picsum.photos/seed/gv-teatinos-3/1200/800", "alt": "Cocina" },
+      { "src": "https://picsum.photos/seed/gv-teatinos-4/1200/800", "alt": "Dormitorio infantil" }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/EXAMPLE",
+    "booking": "https://www.booking.com/hotel/es/EXAMPLE.html",
+    "ical": { "airbnb": "", "booking": "" }
+  }
+]

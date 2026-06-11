@@ -1,0 +1,306 @@
+{
+  "es": {
+    "langName": "Español",
+    "metaTitle": "Good Vibes Apartments — Apartamentos turísticos en Málaga",
+    "metaDescription": "Apartamentos de alquiler vacacional con buenas vibras. Consulta fotos, descripción y disponibilidad de cada apartamento y reserva en Airbnb o Booking.",
+    "nav": { "apartments": "Apartamentos", "owners": "Propietarios", "contact": "Contacto", "blog": "Blog" },
+    "hero": {
+      "title": "Apartamentos con buenas vibras",
+      "subtitle": "Alojamientos cuidados al detalle para que tu estancia sea perfecta. Mira las fotos, consulta la disponibilidad y reserva en tu plataforma favorita.",
+      "cta": "Ver apartamentos"
+    },
+    "properties": {
+      "title": "Nuestros apartamentos",
+      "subtitle": "Cada apartamento está gestionado por nosotros de principio a fin.",
+      "viewDetails": "Ver apartamento",
+      "from": "desde",
+      "night": "noche"
+    },
+    "property": {
+      "guests": "huéspedes",
+      "bedrooms": "dormitorios",
+      "beds": "camas",
+      "baths": "baños",
+      "sqm": "m²",
+      "amenities": "Qué ofrece este apartamento",
+      "availability": "Disponibilidad",
+      "availabilityNote": "Calendario orientativo, sincronizado con nuestros anuncios. Confirma la disponibilidad final al reservar.",
+      "bookOn": "Reserva en",
+      "bookAirbnb": "Reservar en Airbnb",
+      "bookBooking": "Reservar en Booking",
+      "legendFree": "Disponible",
+      "legendBusy": "Ocupado",
+      "backToList": "← Todos los apartamentos",
+      "photosDemo": "Fotos de ejemplo (pendientes de sustituir por las reales)"
+    },
+    "features": {
+      "wifi": "Wifi rápido",
+      "ac": "Aire acondicionado",
+      "heating": "Calefacción",
+      "kitchen": "Cocina equipada",
+      "washer": "Lavadora",
+      "elevator": "Ascensor",
+      "balcony": "Balcón",
+      "terrace": "Terraza",
+      "pool": "Piscina",
+      "parking": "Parking",
+      "tv": "Smart TV",
+      "workspace": "Zona de trabajo",
+      "seaview": "Vistas al mar",
+      "petfriendly": "Admite mascotas"
+    },
+    "owners": {
+      "title": "¿Tienes un piso? Nosotros nos encargamos",
+      "text": "Gestionamos tu apartamento turístico de forma integral: anuncios en Airbnb y Booking, fotos profesionales, comunicación con huéspedes, limpieza y mantenimiento. Tú solo recibes los resultados.",
+      "bullets": ["Anuncios optimizados en Airbnb y Booking", "Atención al huésped 7 días a la semana", "Limpieza y ropa de cama profesional", "Liquidación clara cada mes"],
+      "cta": "Hablemos de tu piso"
+    },
+    "contact": {
+      "title": "Contacto",
+      "text": "¿Dudas sobre un apartamento o quieres que gestionemos el tuyo? Escríbenos y te respondemos rápido.",
+      "whatsapp": "Escríbenos por WhatsApp",
+      "email": "Envíanos un email"
+    },
+    "footer": {
+      "tagline": "Apartamentos turísticos gestionados con cariño.",
+      "blog": "Blog",
+      "rights": "Todos los derechos reservados."
+    },
+    "blog": {
+      "title": "Blog",
+      "subtitle": "Guías y consejos para huéspedes y propietarios.",
+      "readMore": "Leer artículo",
+      "back": "← Volver al blog",
+      "onlyEs": "Disponible en español"
+    },
+    "demoBanner": "⚠️ Versión de demostración: fotos, textos y calendarios son de ejemplo."
+  },
+  "en": {
+    "langName": "English",
+    "metaTitle": "Good Vibes Apartments — Holiday apartments in Málaga",
+    "metaDescription": "Holiday rental apartments with good vibes. Browse photos, descriptions and live availability for each apartment, then book on Airbnb or Booking.",
+    "nav": { "apartments": "Apartments", "owners": "Owners", "contact": "Contact", "blog": "Blog" },
+    "hero": {
+      "title": "Apartments with good vibes",
+      "subtitle": "Carefully managed homes for a perfect stay. Browse the photos, check availability and book on your favourite platform.",
+      "cta": "See apartments"
+    },
+    "properties": {
+      "title": "Our apartments",
+      "subtitle": "Every apartment is managed by us from start to finish.",
+      "viewDetails": "View apartment",
+      "from": "from",
+      "night": "night"
+    },
+    "property": {
+      "guests": "guests",
+      "bedrooms": "bedrooms",
+      "beds": "beds",
+      "baths": "bathrooms",
+      "sqm": "m²",
+      "amenities": "What this apartment offers",
+      "availability": "Availability",
+      "availabilityNote": "Indicative calendar, synced with our listings. Final availability is confirmed when you book.",
+      "bookOn": "Book on",
+      "bookAirbnb": "Book on Airbnb",
+      "bookBooking": "Book on Booking",
+      "legendFree": "Available",
+      "legendBusy": "Booked",
+      "backToList": "← All apartments",
+      "photosDemo": "Sample photos (to be replaced with real ones)"
+    },
+    "features": {
+      "wifi": "Fast wifi",
+      "ac": "Air conditioning",
+      "heating": "Heating",
+      "kitchen": "Equipped kitchen",
+      "washer": "Washing machine",
+      "elevator": "Lift",
+      "balcony": "Balcony",
+      "terrace": "Terrace",
+      "pool": "Swimming pool",
+      "parking": "Parking",
+      "tv": "Smart TV",
+      "workspace": "Workspace",
+      "seaview": "Sea views",
+      "petfriendly": "Pet friendly"
+    },
+    "owners": {
+      "title": "Own a flat? We take care of everything",
+      "text": "We manage your holiday rental end to end: Airbnb and Booking listings, professional photos, guest communication, cleaning and maintenance. You just see the results.",
+      "bullets": ["Optimised listings on Airbnb and Booking", "Guest support 7 days a week", "Professional cleaning and linen", "Clear monthly statements"],
+      "cta": "Let's talk about your flat"
+    },
+    "contact": {
+      "title": "Contact",
+      "text": "Questions about an apartment, or want us to manage yours? Drop us a line and we'll reply fast.",
+      "whatsapp": "Message us on WhatsApp",
+      "email": "Send us an email"
+    },
+    "footer": {
+      "tagline": "Holiday apartments managed with care.",
+      "blog": "Blog",
+      "rights": "All rights reserved."
+    },
+    "blog": {
+      "title": "Blog",
+      "subtitle": "Guides and tips for guests and owners.",
+      "readMore": "Read article",
+      "back": "← Back to blog",
+      "onlyEs": "Available in Spanish"
+    },
+    "demoBanner": "⚠️ Demo version: photos, copy and calendars are sample data."
+  },
+  "fr": {
+    "langName": "Français",
+    "metaTitle": "Good Vibes Apartments — Appartements de vacances à Málaga",
+    "metaDescription": "Appartements de location saisonnière pleins de bonnes ondes. Photos, descriptions et disponibilités de chaque appartement, réservation sur Airbnb ou Booking.",
+    "nav": { "apartments": "Appartements", "owners": "Propriétaires", "contact": "Contact", "blog": "Blog" },
+    "hero": {
+      "title": "Des appartements avec de bonnes ondes",
+      "subtitle": "Des logements soignés dans les moindres détails pour un séjour parfait. Regardez les photos, vérifiez les disponibilités et réservez sur votre plateforme préférée.",
+      "cta": "Voir les appartements"
+    },
+    "properties": {
+      "title": "Nos appartements",
+      "subtitle": "Chaque appartement est géré par nos soins de A à Z.",
+      "viewDetails": "Voir l'appartement",
+      "from": "à partir de",
+      "night": "nuit"
+    },
+    "property": {
+      "guests": "voyageurs",
+      "bedrooms": "chambres",
+      "beds": "lits",
+      "baths": "salles de bain",
+      "sqm": "m²",
+      "amenities": "Ce que propose cet appartement",
+      "availability": "Disponibilités",
+      "availabilityNote": "Calendrier indicatif, synchronisé avec nos annonces. La disponibilité finale est confirmée lors de la réservation.",
+      "bookOn": "Réserver sur",
+      "bookAirbnb": "Réserver sur Airbnb",
+      "bookBooking": "Réserver sur Booking",
+      "legendFree": "Disponible",
+      "legendBusy": "Occupé",
+      "backToList": "← Tous les appartements",
+      "photosDemo": "Photos d'exemple (à remplacer par les vraies)"
+    },
+    "features": {
+      "wifi": "Wifi rapide",
+      "ac": "Climatisation",
+      "heating": "Chauffage",
+      "kitchen": "Cuisine équipée",
+      "washer": "Lave-linge",
+      "elevator": "Ascenseur",
+      "balcony": "Balcon",
+      "terrace": "Terrasse",
+      "pool": "Piscine",
+      "parking": "Parking",
+      "tv": "Smart TV",
+      "workspace": "Espace de travail",
+      "seaview": "Vue sur la mer",
+      "petfriendly": "Animaux acceptés"
+    },
+    "owners": {
+      "title": "Vous avez un appartement ? On s'occupe de tout",
+      "text": "Nous gérons votre location saisonnière de bout en bout : annonces Airbnb et Booking, photos professionnelles, communication avec les voyageurs, ménage et entretien. Vous ne voyez que les résultats.",
+      "bullets": ["Annonces optimisées sur Airbnb et Booking", "Assistance voyageurs 7j/7", "Ménage et linge professionnels", "Relevés mensuels clairs"],
+      "cta": "Parlons de votre bien"
+    },
+    "contact": {
+      "title": "Contact",
+      "text": "Une question sur un appartement, ou envie de nous confier le vôtre ? Écrivez-nous, nous répondons vite.",
+      "whatsapp": "Écrivez-nous sur WhatsApp",
+      "email": "Envoyez-nous un email"
+    },
+    "footer": {
+      "tagline": "Appartements de vacances gérés avec soin.",
+      "blog": "Blog",
+      "rights": "Tous droits réservés."
+    },
+    "blog": {
+      "title": "Blog",
+      "subtitle": "Guides et conseils pour voyageurs et propriétaires.",
+      "readMore": "Lire l'article",
+      "back": "← Retour au blog",
+      "onlyEs": "Disponible en espagnol"
+    },
+    "demoBanner": "⚠️ Version de démonstration : photos, textes et calendriers sont des exemples."
+  },
+  "it": {
+    "langName": "Italiano",
+    "metaTitle": "Good Vibes Apartments — Appartamenti vacanze a Málaga",
+    "metaDescription": "Appartamenti per vacanze con buone vibrazioni. Foto, descrizioni e disponibilità di ogni appartamento, prenotazione su Airbnb o Booking.",
+    "nav": { "apartments": "Appartamenti", "owners": "Proprietari", "contact": "Contatti", "blog": "Blog" },
+    "hero": {
+      "title": "Appartamenti con buone vibrazioni",
+      "subtitle": "Alloggi curati nei minimi dettagli per un soggiorno perfetto. Guarda le foto, controlla la disponibilità e prenota sulla tua piattaforma preferita.",
+      "cta": "Vedi gli appartamenti"
+    },
+    "properties": {
+      "title": "I nostri appartamenti",
+      "subtitle": "Ogni appartamento è gestito da noi dall'inizio alla fine.",
+      "viewDetails": "Vedi appartamento",
+      "from": "da",
+      "night": "notte"
+    },
+    "property": {
+      "guests": "ospiti",
+      "bedrooms": "camere",
+      "beds": "letti",
+      "baths": "bagni",
+      "sqm": "m²",
+      "amenities": "Cosa offre questo appartamento",
+      "availability": "Disponibilità",
+      "availabilityNote": "Calendario indicativo, sincronizzato con i nostri annunci. La disponibilità finale viene confermata al momento della prenotazione.",
+      "bookOn": "Prenota su",
+      "bookAirbnb": "Prenota su Airbnb",
+      "bookBooking": "Prenota su Booking",
+      "legendFree": "Disponibile",
+      "legendBusy": "Occupato",
+      "backToList": "← Tutti gli appartamenti",
+      "photosDemo": "Foto di esempio (da sostituire con quelle reali)"
+    },
+    "features": {
+      "wifi": "Wifi veloce",
+      "ac": "Aria condizionata",
+      "heating": "Riscaldamento",
+      "kitchen": "Cucina attrezzata",
+      "washer": "Lavatrice",
+      "elevator": "Ascensore",
+      "balcony": "Balcone",
+      "terrace": "Terrazza",
+      "pool": "Piscina",
+      "parking": "Parcheggio",
+      "tv": "Smart TV",
+      "workspace": "Postazione di lavoro",
+      "seaview": "Vista mare",
+      "petfriendly": "Animali ammessi"
+    },
+    "owners": {
+      "title": "Hai un appartamento? Ci occupiamo di tutto noi",
+      "text": "Gestiamo il tuo affitto turistico dalla A alla Z: annunci su Airbnb e Booking, foto professionali, comunicazione con gli ospiti, pulizie e manutenzione. Tu vedi solo i risultati.",
+      "bullets": ["Annunci ottimizzati su Airbnb e Booking", "Assistenza ospiti 7 giorni su 7", "Pulizie e biancheria professionali", "Rendiconti mensili chiari"],
+      "cta": "Parliamo del tuo appartamento"
+    },
+    "contact": {
+      "title": "Contatti",
+      "text": "Domande su un appartamento o vuoi affidarci il tuo? Scrivici e ti rispondiamo in fretta.",
+      "whatsapp": "Scrivici su WhatsApp",
+      "email": "Mandaci una email"
+    },
+    "footer": {
+      "tagline": "Appartamenti vacanze gestiti con cura.",
+      "blog": "Blog",
+      "rights": "Tutti i diritti riservati."
+    },
+    "blog": {
+      "title": "Blog",
+      "subtitle": "Guide e consigli per ospiti e proprietari.",
+      "readMore": "Leggi l'articolo",
+      "back": "← Torna al blog",
+      "onlyEs": "Disponibile in spagnolo"
+    },
+    "demoBanner": "⚠️ Versione demo: foto, testi e calendari sono di esempio."
+  }
+}

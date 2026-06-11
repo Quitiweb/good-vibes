@@ -1,0 +1,12 @@
+{
+  "name": "Good Vibes Apartments",
+  "url": "https://goodvibes.quitiweb.com",
+  "defaultLang": "es",
+  "langs": ["es", "en", "fr", "it"],
+  "email": "hola@goodvibesapartments.com",
+  "phone": "+34 600 000 000",
+  "whatsapp": "34600000000",
+  "city": "Málaga",
+  "instagram": "https://instagram.com/goodvibesapartments",
+  "demoNote": true
+}

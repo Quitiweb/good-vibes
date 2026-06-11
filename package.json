@@ -1,0 +1,15 @@
+{
+  "name": "good-vibes-apartments",
+  "version": "0.1.0",
+  "description": "Web de Good Vibes Apartments — alquiler vacacional. Estática, multiidioma, generada con Eleventy.",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "sync:calendars": "node scripts/sync-calendars.mjs",
+    "keywords": "node scripts/semrush-keywords.mjs"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

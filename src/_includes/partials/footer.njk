@@ -1,0 +1,23 @@
+{% set t = i18n[lang] %}
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-logo">☀️ Good Vibes Apartments</p>
+      <p class="footer-tagline">{{ t.footer.tagline }}</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="{{ langmeta[lang].home | url }}#apartments">{{ t.nav.apartments }}</a>
+      <a href="{{ langmeta[lang].home | url }}#owners">{{ t.nav.owners }}</a>
+      <a href="{{ langmeta[lang].home | url }}#contact">{{ t.nav.contact }}</a>
+      <a href="{{ '/blog/' | url }}">{{ t.footer.blog }}</a>
+    </nav>
+    <div class="footer-contact">
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      <a href="https://wa.me/{{ site.whatsapp }}" rel="noopener">WhatsApp</a>
+      <a href="{{ site.instagram }}" rel="noopener">Instagram</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 {{ site.name }} · {{ t.footer.rights }}</p>
+  </div>
+</footer>
