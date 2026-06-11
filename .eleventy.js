@@ -1,6 +1,7 @@
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "src/robots.txt": "robots.txt" });
+  eleventyConfig.addPassthroughCopy({ CNAME: "CNAME" });
 
   eleventyConfig.addFilter("readableDate", (iso, lang = "es") => {
     const locales = { es: "es-ES", en: "en-GB", fr: "fr-FR", it: "it-IT" };

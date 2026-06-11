@@ -24,11 +24,12 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
-      # Mientras la web viva en https://quitiweb.github.io/good-vibes/ hace falta
-      # el prefijo. Cuando se configure el dominio propio (CNAME), poner "/".
+      # Con dominio propio (CNAME → gvibes.quitiweb.com) el prefijo es "/".
+      # Si se sirviera desde quitiweb.github.io/good-vibes/, definir la
+      # variable de repositorio PATH_PREFIX=/good-vibes/.
       - run: npx eleventy --pathprefix "${PATH_PREFIX}"
         env:
-          PATH_PREFIX: ${{ vars.PATH_PREFIX || '/good-vibes/' }}
+          PATH_PREFIX: ${{ vars.PATH_PREFIX || '/' }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

@@ -44,18 +44,20 @@ disponibilidad cada 6 horas y la web se reconstruye sola. A mano:
 
 ## Despliegue (GitHub Pages)
 
-1. En GitHub: *Settings → Pages → Source: GitHub Actions*.
-2. Cada push a `main` despliega vía [deploy.yml](.github/workflows/deploy.yml).
-3. Queda en `https://quitiweb.github.io/good-vibes/`.
+Cada push a `main` despliega vía [deploy.yml](.github/workflows/deploy.yml) al
+subdominio **https://gvibes.quitiweb.com** (el DNS ya apunta a
+`quitiweb.github.io` y el archivo `CNAME` va incluido en el build).
 
-Para el subdominio `goodvibes.quitiweb.com`:
+Pasos únicos en GitHub si aún no están hechos:
 
-1. CNAME en el DNS de quitiweb.com: `goodvibes` → `quitiweb.github.io`.
-2. *Settings → Pages → Custom domain*: `goodvibes.quitiweb.com` (+ Enforce HTTPS).
-3. Crear la variable de repositorio `PATH_PREFIX` con valor `/`
-   (*Settings → Secrets and variables → Actions → Variables*) y relanzar el deploy.
-4. Si cambia el dominio final, actualizar `url` en `src/_data/site.json` y
-   el `Sitemap:` de `src/robots.txt`.
+1. *Settings → Pages → Source*: **GitHub Actions**.
+2. *Settings → Pages → Custom domain*: `gvibes.quitiweb.com` + *Enforce HTTPS*.
+
+Si algún día se sirviera sin dominio propio (en
+`quitiweb.github.io/good-vibes/`), crear la variable de repositorio
+`PATH_PREFIX` con valor `/good-vibes/`. Si cambia el dominio, actualizar
+también `url` en `src/_data/site.json`, el `Sitemap:` de `src/robots.txt`
+y el archivo `CNAME`.
 
 ## Qué necesitamos de Pedro
 
