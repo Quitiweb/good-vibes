@@ -165,6 +165,55 @@ h2 { font-size: 1.5rem; }
 .section-alt { background: var(--bg-alt); }
 .section-sub { color: var(--muted); margin-top: -0.4rem; }
 
+/* Filtros */
+.filters {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.7rem;
+  margin-top: 1.3rem;
+  padding: 0.9rem;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  align-items: end;
+}
+@media (min-width: 800px) { .filters { grid-template-columns: repeat(4, 1fr) auto; } }
+.filters label { display: flex; flex-direction: column; gap: 0.25rem; }
+.filters label span { font-size: 0.78rem; font-weight: 700; color: var(--muted); }
+.filters select {
+  font: inherit;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--text);
+}
+.filters-clear {
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--primary);
+  background: none;
+  border: 0;
+  cursor: pointer;
+  padding: 0.5rem 0.3rem;
+  justify-self: start;
+}
+.no-results {
+  margin-top: 1.5rem;
+  padding: 1.2rem;
+  background: var(--bg-alt);
+  border-radius: var(--radius);
+  text-align: center;
+  color: var(--muted);
+}
+.card-price { margin: 0 0 0.5rem; font-size: 0.95rem; }
+.card-price strong { color: var(--dark); font-size: 1.05rem; }
+.booking-price { margin: 0 0 0.4rem; }
+.booking-price strong { font-size: 1.25rem; color: var(--dark); }
+.booking-price small { color: var(--muted); }
+
 /* Property grid */
 .property-grid {
   display: grid;

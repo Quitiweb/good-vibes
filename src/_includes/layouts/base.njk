@@ -33,5 +33,6 @@
 </main>
 {% include "partials/footer.njk" %}
 <script src="{{ '/assets/js/main.js' | url }}" defer></script>
+{% if extraJs %}<script src="{{ extraJs | url }}" defer></script>{% endif %}
 </body>
 </html>

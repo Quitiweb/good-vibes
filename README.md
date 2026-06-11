@@ -32,6 +32,11 @@ Para **añadir una propiedad**: copiar un bloque de `properties.json`, cambiar
 slug, textos (4 idiomas), fotos y enlaces. Las páginas en los 4 idiomas, el
 sitemap y los `hreflang` se generan solos.
 
+Campos que alimentan los **filtros del listado** (tipo, precio máx., dormitorios,
+huéspedes): `type` (`apartment` | `studio` | `penthouse` — etiquetas en
+`i18n.json` → `types`), `priceFrom` (€/noche orientativo; si se omite no se
+muestra precio), `bedrooms` y `guests`.
+
 ## Calendarios de Airbnb y Booking
 
 Cada propiedad tiene `ical.airbnb` / `ical.booking` en `properties.json`.
@@ -62,6 +67,7 @@ y el archivo `CNAME`.
 ## Qué necesitamos de Pedro
 
 - [ ] Lista real de propiedades: nombre, zona, m², huéspedes, camas, baños
+- [ ] Tipo y precio "desde" por noche de cada piso (para los filtros del listado)
 - [ ] Fotos reales de cada piso (mín. 4 por piso, horizontales)
 - [ ] Descripción breve de cada piso (se la traducimos a EN/FR/IT)
 - [ ] Enlaces públicos de cada anuncio en Airbnb y Booking

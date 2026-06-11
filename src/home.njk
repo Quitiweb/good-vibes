@@ -1,4 +1,5 @@
 ---
+extraJs: /assets/js/filters.js
 pagination:
   data: site.langs
   size: 1
@@ -26,11 +27,53 @@ eleventyComputed:
   <div class="container">
     <h2>{{ t.properties.title }}</h2>
     <p class="section-sub">{{ t.properties.subtitle }}</p>
-    <div class="property-grid">
+
+    <form class="filters" data-filters aria-label="{{ t.filters.title }}">
+      <label>
+        <span>{{ t.filters.type }}</span>
+        <select data-filter="type">
+          <option value="">{{ t.filters.all }}</option>
+          {%- for key, label in t.types %}
+          <option value="{{ key }}">{{ label }}</option>
+          {%- endfor %}
+        </select>
+      </label>
+      <label>
+        <span>{{ t.filters.maxPrice }}</span>
+        <select data-filter="price">
+          <option value="">{{ t.filters.any }}</option>
+          <option value="70">≤ 70 €</option>
+          <option value="100">≤ 100 €</option>
+          <option value="150">≤ 150 €</option>
+        </select>
+      </label>
+      <label>
+        <span>{{ t.filters.bedrooms }}</span>
+        <select data-filter="bedrooms">
+          <option value="">{{ t.filters.any }}</option>
+          <option value="1">1+</option>
+          <option value="2">2+</option>
+          <option value="3">3+</option>
+        </select>
+      </label>
+      <label>
+        <span>{{ t.filters.guests }}</span>
+        <select data-filter="guests">
+          <option value="">{{ t.filters.any }}</option>
+          <option value="2">2+</option>
+          <option value="4">4+</option>
+          <option value="6">6+</option>
+        </select>
+      </label>
+      <button type="button" class="filters-clear" data-filters-clear hidden>✕ {{ t.filters.clear }}</button>
+    </form>
+
+    <div class="property-grid" data-property-grid>
       {%- for prop in properties %}
       {% include "partials/property-card.njk" %}
       {%- endfor %}
     </div>
+    <p class="no-results" data-no-results hidden>{{ t.filters.noResults }}</p>
   </div>
 </section>
 

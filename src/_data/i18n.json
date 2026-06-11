@@ -40,7 +40,8 @@
       "guests1": "huésped",
       "bedrooms1": "dormitorio",
       "beds1": "cama",
-      "baths1": "baño"
+      "baths1": "baño",
+      "priceNote": "Precio final y ofertas, en Airbnb o Booking."
     },
     "features": {
       "wifi": "Wifi rápido",
@@ -91,6 +92,24 @@
     "gallery": {
       "title": "Galería",
       "subtitle": "Fotos reales de nuestros apartamentos en Málaga."
+    },
+    "types": {
+      "apartment": "Apartamento",
+      "studio": "Estudio",
+      "penthouse": "Ático"
+    },
+    "filters": {
+      "title": "Filtrar",
+      "type": "Tipo",
+      "maxPrice": "Precio máx./noche",
+      "bedrooms": "Dormitorios",
+      "guests": "Huéspedes",
+      "any": "Cualquiera",
+      "all": "Todos",
+      "noResults": "Ningún apartamento cumple esos filtros.",
+      "clear": "Quitar filtros",
+      "results": "apartamentos",
+      "result": "apartamento"
     }
   },
   "en": {
@@ -134,7 +153,8 @@
       "guests1": "guest",
       "bedrooms1": "bedroom",
       "beds1": "bed",
-      "baths1": "bathroom"
+      "baths1": "bathroom",
+      "priceNote": "Final price and deals on Airbnb or Booking."
     },
     "features": {
       "wifi": "Fast wifi",
@@ -185,6 +205,24 @@
     "gallery": {
       "title": "Gallery",
       "subtitle": "Real photos of our apartments in Málaga."
+    },
+    "types": {
+      "apartment": "Apartment",
+      "studio": "Studio",
+      "penthouse": "Penthouse"
+    },
+    "filters": {
+      "title": "Filter",
+      "type": "Type",
+      "maxPrice": "Max price/night",
+      "bedrooms": "Bedrooms",
+      "guests": "Guests",
+      "any": "Any",
+      "all": "All",
+      "noResults": "No apartment matches those filters.",
+      "clear": "Clear filters",
+      "results": "apartments",
+      "result": "apartment"
     }
   },
   "fr": {
@@ -228,7 +266,8 @@
       "guests1": "voyageur",
       "bedrooms1": "chambre",
       "beds1": "lit",
-      "baths1": "salle de bain"
+      "baths1": "salle de bain",
+      "priceNote": "Prix final et offres sur Airbnb ou Booking."
     },
     "features": {
       "wifi": "Wifi rapide",
@@ -279,6 +318,24 @@
     "gallery": {
       "title": "Galerie",
       "subtitle": "Photos réelles de nos appartements à Málaga."
+    },
+    "types": {
+      "apartment": "Appartement",
+      "studio": "Studio",
+      "penthouse": "Attique"
+    },
+    "filters": {
+      "title": "Filtrer",
+      "type": "Type",
+      "maxPrice": "Prix max/nuit",
+      "bedrooms": "Chambres",
+      "guests": "Voyageurs",
+      "any": "Indifférent",
+      "all": "Tous",
+      "noResults": "Aucun appartement ne correspond à ces filtres.",
+      "clear": "Effacer les filtres",
+      "results": "appartements",
+      "result": "appartement"
     }
   },
   "it": {
@@ -322,7 +379,8 @@
       "guests1": "ospite",
       "bedrooms1": "camera",
       "beds1": "letto",
-      "baths1": "bagno"
+      "baths1": "bagno",
+      "priceNote": "Prezzo finale e offerte su Airbnb o Booking."
     },
     "features": {
       "wifi": "Wifi veloce",
@@ -373,6 +431,24 @@
     "gallery": {
       "title": "Galleria",
       "subtitle": "Foto reali dei nostri appartamenti a Málaga."
+    },
+    "types": {
+      "apartment": "Appartamento",
+      "studio": "Monolocale",
+      "penthouse": "Attico"
+    },
+    "filters": {
+      "title": "Filtra",
+      "type": "Tipo",
+      "maxPrice": "Prezzo max/notte",
+      "bedrooms": "Camere",
+      "guests": "Ospiti",
+      "any": "Qualsiasi",
+      "all": "Tutti",
+      "noResults": "Nessun appartamento corrisponde a questi filtri.",
+      "clear": "Togli i filtri",
+      "results": "appartamenti",
+      "result": "appartamento"
     }
   }
 }
