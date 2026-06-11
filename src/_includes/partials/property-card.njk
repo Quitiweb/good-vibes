@@ -8,9 +8,9 @@
     <h3><a href="{{ (langmeta[lang].propertiesDir + prop.slug + '/') | url }}">{{ prop.name[lang] }}</a></h3>
     <p class="card-zone">📍 {{ prop.zone }}, {{ site.city }}</p>
     <ul class="specs">
-      <li>{{ prop.guests }} {{ t.property.guests }}</li>
-      <li>{{ prop.bedrooms }} {{ t.property.bedrooms }}</li>
-      <li>{{ prop.baths }} {{ t.property.baths }}</li>
+      <li>{{ prop.guests }} {{ t.property.guests1 if prop.guests == 1 else t.property.guests }}</li>
+      <li>{{ prop.bedrooms }} {{ t.property.bedrooms1 if prop.bedrooms == 1 else t.property.bedrooms }}</li>
+      <li>{{ prop.baths }} {{ t.property.baths1 if prop.baths == 1 else t.property.baths }}</li>
       <li>{{ prop.sqm }} {{ t.property.sqm }}</li>
     </ul>
     <p class="card-desc">{{ prop.description[lang] }}</p>
