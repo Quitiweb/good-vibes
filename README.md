@@ -35,7 +35,13 @@ sitemap y los `hreflang` se generan solos.
 Campos que alimentan los **filtros del listado** (tipo, precio máx., dormitorios,
 huéspedes): `type` (`apartment` | `studio` | `penthouse` — etiquetas en
 `i18n.json` → `types`), `priceFrom` (€/noche orientativo; si se omite no se
-muestra precio), `bedrooms` y `guests`.
+muestra precio), `bedrooms` y `guests`. Los campos `lat`/`lng` posicionan cada
+piso en **el mapa** de la portada (Leaflet + OpenStreetMap autoalojado, con
+marcadores de precio estilo Airbnb).
+
+Estilos: `main.css` (base) + `ux-patch.css` (auditoría UX de Luke: tipografía
+DM Sans/DM Serif Display, colores AA, focus visible) + `fonts.css` (fuentes
+autoalojadas en `src/assets/fonts/`, sin llamadas a Google → sin líos RGPD).
 
 ## Calendarios de Airbnb y Booking
 

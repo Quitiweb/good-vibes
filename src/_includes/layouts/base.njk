@@ -23,7 +23,12 @@
   {%- endif %}
   <link rel="icon" href="{{ '/assets/img/favicon.svg' | url }}" type="image/svg+xml">
   <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="{{ '/assets/css/fonts.css' | url }}">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/ux-patch.css' | url }}">
+  {%- if hasMap %}
+  <link rel="stylesheet" href="{{ '/assets/vendor/leaflet/leaflet.css' | url }}">
+  {%- endif %}
 </head>
 <body>
 {% if site.demoNote %}<div class="demo-banner">{{ i18n[lang].demoBanner }}</div>{% endif %}
@@ -34,5 +39,9 @@
 {% include "partials/footer.njk" %}
 <script src="{{ '/assets/js/main.js' | url }}" defer></script>
 {% if extraJs %}<script src="{{ extraJs | url }}" defer></script>{% endif %}
+{%- if hasMap %}
+<script src="{{ '/assets/vendor/leaflet/leaflet.js' | url }}" defer></script>
+<script src="{{ '/assets/js/map.js' | url }}" defer></script>
+{%- endif %}
 </body>
 </html>

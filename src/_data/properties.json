@@ -54,7 +54,9 @@
       "booking": ""
     },
     "type": "apartment",
-    "priceFrom": 95
+    "priceFrom": 95,
+    "lat": 36.7213,
+    "lng": -4.4216
   },
   {
     "slug": "soho-malaga",
@@ -106,7 +108,9 @@
       "booking": ""
     },
     "type": "apartment",
-    "priceFrom": 75
+    "priceFrom": 75,
+    "lat": 36.7152,
+    "lng": -4.4231
   },
   {
     "slug": "malagueta-playa",
@@ -169,7 +173,9 @@
       "booking": ""
     },
     "type": "apartment",
-    "priceFrom": 140
+    "priceFrom": 140,
+    "lat": 36.7196,
+    "lng": -4.4093
   },
   {
     "slug": "atico-el-palo",
@@ -224,7 +230,9 @@
       "booking": ""
     },
     "type": "penthouse",
-    "priceFrom": 110
+    "priceFrom": 110,
+    "lat": 36.7205,
+    "lng": -4.358
   },
   {
     "slug": "estudio-larios",
@@ -275,7 +283,9 @@
       "booking": ""
     },
     "type": "studio",
-    "priceFrom": 60
+    "priceFrom": 60,
+    "lat": 36.7197,
+    "lng": -4.4202
   },
   {
     "slug": "familiar-teatinos",
@@ -334,6 +344,8 @@
       "booking": ""
     },
     "type": "apartment",
-    "priceFrom": 85
+    "priceFrom": 85,
+    "lat": 36.7322,
+    "lng": -4.475
   }
 ]

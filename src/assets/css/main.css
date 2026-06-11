@@ -410,6 +410,36 @@ h2 { font-size: 1.5rem; }
 .dot-busy { background: #fde3df; border: 1px solid #b3402f; }
 .availability-note { color: var(--muted); font-size: 0.82rem; }
 
+/* Mapa */
+.listings-map {
+  height: 420px;
+  border-radius: var(--radius);
+  margin-top: 1.5rem;
+  box-shadow: var(--shadow);
+  z-index: 0;
+}
+@media (min-width: 800px) { .listings-map { height: 480px; } }
+.map-price-marker {
+  display: inline-block;
+  background: #fff;
+  color: var(--dark);
+  font-weight: 800;
+  font-size: 0.82rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 8px rgba(22, 50, 58, 0.25);
+  white-space: nowrap;
+  transform: translate(-50%, -100%);
+  cursor: pointer;
+}
+.map-price-marker:hover { background: var(--dark); color: #fff; }
+.map-popup { display: block; text-decoration: none; color: var(--text); }
+.map-popup img { width: 100%; aspect-ratio: 3/2; object-fit: cover; border-radius: 8px; margin-bottom: 0.4rem; }
+.map-popup strong { display: block; color: var(--dark); }
+.map-popup span { display: block; font-size: 0.85rem; color: var(--muted); }
+.map-popup em { display: block; font-style: normal; font-weight: 700; color: var(--primary); margin-top: 0.3rem; }
+
 /* Galería */
 .photo-gallery {
   columns: 2;

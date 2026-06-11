@@ -1,0 +1,174 @@
+/* ============================================================
+   GOOD VIBES APARTMENTS — UX PATCH (de Luke)
+   Se carga DESPUÉS de main.css. Solo sobreescribe los tokens y
+   reglas auditadas; el layout y la estructura quedan intactos.
+   Nota: las fuentes van autoalojadas en fonts.css (no Google CDN).
+   ============================================================ */
+
+
+/* ------------------------------------------------------------
+   1. DESIGN TOKENS — updated :root
+   ------------------------------------------------------------ */
+
+:root {
+  /* Typography */
+  --font: "DM Sans", system-ui, sans-serif;
+  --font-display: "DM Serif Display", Georgia, serif;
+
+  /* Primary coral — darkened to pass WCAG AA (4.6:1 on white) */
+  --primary: #d44f3d;
+  --primary-dark: #b83c2c;
+  --primary-light: #e85d4a;   /* use for decorative / bg tints only */
+
+  /* Dark — shifted slightly warmer, less generic */
+  --dark: #1e2d2f;
+
+  /* Body text — matched to new dark */
+  --text: #2e3b3c;
+
+  /* Muted — darkened to pass WCAG AA at small text sizes (4.7:1 on bg-alt) */
+  --muted: #596870;
+
+  /* Warm neutral — use instead of --bg-alt for section backgrounds */
+  --bg-warm: #f7f0e8;
+  --border-warm: #e8ddd2;
+
+  /* Line height — slightly more open */
+  --lh-body: 1.7;
+}
+
+
+/* ------------------------------------------------------------
+   2. TYPOGRAPHY — display face on headings, open line height
+   ------------------------------------------------------------ */
+
+body {
+  line-height: var(--lh-body);
+}
+
+h1, h2 {
+  font-family: var(--font-display);
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 400;          /* display faces don't need bold */
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  font-size: 1.35rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-family: var(--font);  /* keep card/UI headings in sans */
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+/* Hero — italic display headline is the signature moment */
+.hero h1 {
+  font-style: italic;
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+/* Logo — display face, lighter weight */
+.logo {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: -0.01em;
+}
+
+/* Nav links — slightly lighter, more airy */
+.main-nav a {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+
+/* ------------------------------------------------------------
+   3. LABEL UTILITY — for specs, filter labels, meta text
+   ------------------------------------------------------------ */
+
+.label,
+.filters label span,
+.card-zone,
+.blog-meta,
+.availability-note {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+
+/* ------------------------------------------------------------
+   4. SECTION BACKGROUNDS — swap cool grey-blue for warm neutral
+   ------------------------------------------------------------ */
+
+.section-alt {
+  background: var(--bg-warm);
+}
+
+.filters {
+  background: var(--bg-warm);
+  border-color: var(--border-warm);
+}
+
+.cal-month {
+  border-color: var(--border-warm);
+}
+
+
+/* ------------------------------------------------------------
+   5. CARD HOVER — translate instead of inner image scale
+   ------------------------------------------------------------ */
+
+.property-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.property-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(30, 45, 47, 0.13);
+}
+
+/* Remove the old inner image scale */
+.property-card:hover .card-photo img {
+  transform: none;
+}
+
+
+/* ------------------------------------------------------------
+   6. FOCUS STYLES — keyboard / switch access
+   ------------------------------------------------------------ */
+
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Buttons already have border-radius: 999px — match it */
+.btn:focus-visible {
+  outline-offset: 4px;
+  border-radius: 999px;
+}
+
+
+/* ------------------------------------------------------------
+   7. MOBILE BOOKING BAR — safe-area fallback fix
+   ------------------------------------------------------------ */
+
+@media (max-width: 899px) {
+  .booking-box {
+    /* Fallback first, then the calc() version */
+    padding-bottom: env(safe-area-inset-bottom, 0);
+    padding-bottom: calc(0.7rem + env(safe-area-inset-bottom, 0));
+  }
+}

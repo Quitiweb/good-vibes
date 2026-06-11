@@ -1,5 +1,6 @@
 ---
 extraJs: /assets/js/filters.js
+hasMap: true
 pagination:
   data: site.langs
   size: 1
@@ -77,7 +78,20 @@ eleventyComputed:
   </div>
 </section>
 
-<section id="gallery" class="section section-alt">
+<section id="map" class="section section-alt">
+  <div class="container">
+    <h2>{{ t.map.title }}</h2>
+    <p class="section-sub">{{ t.map.subtitle }}</p>
+    <div id="listings-map" class="listings-map"></div>
+  </div>
+</section>
+<script type="application/json" id="map-data">[
+{%- for prop in properties -%}
+{"name": {{ prop.name[lang] | jsonify | safe }}, "zone": {{ prop.zone | jsonify | safe }}, "price": {{ prop.priceFrom or 0 }}, "lat": {{ prop.lat }}, "lng": {{ prop.lng }}, "url": {{ ((langmeta[lang].propertiesDir + prop.slug + '/') | url) | jsonify | safe }}, "photo": {{ prop.photos[0].src | jsonify | safe }}, "night": {{ t.properties.night | jsonify | safe }}, "view": {{ t.map.view | jsonify | safe }}}{{ "," if not loop.last }}
+{%- endfor -%}
+]</script>
+
+<section id="gallery" class="section">
   <div class="container">
     <h2>{{ t.gallery.title }}</h2>
     <p class="section-sub">{{ t.gallery.subtitle }}</p>
@@ -89,7 +103,7 @@ eleventyComputed:
   </div>
 </section>
 
-<section id="owners" class="section">
+<section id="owners" class="section section-alt">
   <div class="container owners-grid">
     <div>
       <h2>{{ t.owners.title }}</h2>

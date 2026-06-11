@@ -110,6 +110,11 @@
       "clear": "Quitar filtros",
       "results": "apartamentos",
       "result": "apartamento"
+    },
+    "map": {
+      "title": "El mapa",
+      "subtitle": "Dónde está cada apartamento (ubicación orientativa).",
+      "view": "Ver apartamento"
     }
   },
   "en": {
@@ -223,6 +228,11 @@
       "clear": "Clear filters",
       "results": "apartments",
       "result": "apartment"
+    },
+    "map": {
+      "title": "The map",
+      "subtitle": "Where each apartment is (approximate location).",
+      "view": "View apartment"
     }
   },
   "fr": {
@@ -336,6 +346,11 @@
       "clear": "Effacer les filtres",
       "results": "appartements",
       "result": "appartement"
+    },
+    "map": {
+      "title": "La carte",
+      "subtitle": "Où se trouve chaque appartement (emplacement approximatif).",
+      "view": "Voir l'appartement"
     }
   },
   "it": {
@@ -449,6 +464,11 @@
       "clear": "Togli i filtri",
       "results": "appartamenti",
       "result": "appartamento"
+    },
+    "map": {
+      "title": "La mappa",
+      "subtitle": "Dove si trova ogni appartamento (posizione indicativa).",
+      "view": "Vedi appartamento"
     }
   }
 }
