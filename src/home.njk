@@ -96,7 +96,8 @@ eleventyComputed:
     <h2>{{ t.gallery.title }}</h2>
     <p class="section-sub">{{ t.gallery.subtitle }}</p>
     <div class="photo-gallery">
-      {%- for n in ['01','02','03','04','05','06','07','08','09','10'] %}
+      {#- 9 fotos: la primera ocupa 2×2 y el resto celdas 1×1 → 12 celdas, rejilla exacta en 4 y 2 columnas #}
+      {%- for n in ['07','01','02','03','04','05','06','08','09'] %}
       <img src="{{ ('/assets/img/galeria/' + n + '.jpg') | url }}" alt="Good Vibes Apartments — {{ site.city }}" loading="lazy">
       {%- endfor %}
     </div>
