@@ -13,8 +13,8 @@
     </nav>
     <div class="footer-contact">
       <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      <a href="tel:{{ site.phone | replace(' ', '') }}">{{ site.phone }}</a>
       <a href="https://wa.me/{{ site.whatsapp }}" rel="noopener">WhatsApp</a>
-      <a href="{{ site.instagram }}" rel="noopener">Instagram</a>
     </div>
   </div>
   <div class="container footer-bottom">

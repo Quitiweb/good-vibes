@@ -60,7 +60,7 @@
     },
     "owners": {
       "title": "¿Tienes un piso? Nosotros nos encargamos",
-      "text": "Gestionamos tu apartamento turístico de forma integral: anuncios en Airbnb y Booking, fotos profesionales, comunicación con huéspedes, limpieza y mantenimiento. Tú solo recibes los resultados.",
+      "text": "Más de 8 años en el alquiler turístico en Málaga nos avalan. Gestionamos tu apartamento de forma integral: anuncios en Airbnb y Booking, fotos profesionales, comunicación con huéspedes, limpieza y mantenimiento. Tú solo recibes los resultados.",
       "bullets": [
         "Anuncios optimizados en Airbnb y Booking",
         "Atención al huésped 7 días a la semana",
@@ -87,7 +87,11 @@
       "back": "← Volver al blog",
       "onlyEs": "Disponible en español"
     },
-    "demoBanner": "⚠️ Versión de demostración: fotos, textos y calendarios son de ejemplo."
+    "demoBanner": "⚠️ Versión de demostración: los apartamentos listados y sus calendarios son de ejemplo.",
+    "gallery": {
+      "title": "Galería",
+      "subtitle": "Fotos reales de nuestros apartamentos en Málaga."
+    }
   },
   "en": {
     "langName": "English",
@@ -150,7 +154,7 @@
     },
     "owners": {
       "title": "Own a flat? We take care of everything",
-      "text": "We manage your holiday rental end to end: Airbnb and Booking listings, professional photos, guest communication, cleaning and maintenance. You just see the results.",
+      "text": "Backed by more than 8 years in holiday rentals in Málaga. We manage your apartment end to end: Airbnb and Booking listings, professional photos, guest communication, cleaning and maintenance. You just see the results.",
       "bullets": [
         "Optimised listings on Airbnb and Booking",
         "Guest support 7 days a week",
@@ -177,7 +181,11 @@
       "back": "← Back to blog",
       "onlyEs": "Available in Spanish"
     },
-    "demoBanner": "⚠️ Demo version: photos, copy and calendars are sample data."
+    "demoBanner": "⚠️ Demo version: the listed apartments and their calendars are sample data.",
+    "gallery": {
+      "title": "Gallery",
+      "subtitle": "Real photos of our apartments in Málaga."
+    }
   },
   "fr": {
     "langName": "Français",
@@ -240,7 +248,7 @@
     },
     "owners": {
       "title": "Vous avez un appartement ? On s'occupe de tout",
-      "text": "Nous gérons votre location saisonnière de bout en bout : annonces Airbnb et Booking, photos professionnelles, communication avec les voyageurs, ménage et entretien. Vous ne voyez que les résultats.",
+      "text": "Plus de 8 ans d'expérience dans la location saisonnière à Málaga. Nous gérons votre appartement de bout en bout : annonces Airbnb et Booking, photos professionnelles, communication avec les voyageurs, ménage et entretien. Vous ne voyez que les résultats.",
       "bullets": [
         "Annonces optimisées sur Airbnb et Booking",
         "Assistance voyageurs 7j/7",
@@ -267,7 +275,11 @@
       "back": "← Retour au blog",
       "onlyEs": "Disponible en espagnol"
     },
-    "demoBanner": "⚠️ Version de démonstration : photos, textes et calendriers sont des exemples."
+    "demoBanner": "⚠️ Version de démonstration : les appartements listés et leurs calendriers sont des exemples.",
+    "gallery": {
+      "title": "Galerie",
+      "subtitle": "Photos réelles de nos appartements à Málaga."
+    }
   },
   "it": {
     "langName": "Italiano",
@@ -330,7 +342,7 @@
     },
     "owners": {
       "title": "Hai un appartamento? Ci occupiamo di tutto noi",
-      "text": "Gestiamo il tuo affitto turistico dalla A alla Z: annunci su Airbnb e Booking, foto professionali, comunicazione con gli ospiti, pulizie e manutenzione. Tu vedi solo i risultati.",
+      "text": "Più di 8 anni nel settore degli affitti turistici a Málaga. Gestiamo il tuo appartamento dalla A alla Z: annunci su Airbnb e Booking, foto professionali, comunicazione con gli ospiti, pulizie e manutenzione. Tu vedi solo i risultati.",
       "bullets": [
         "Annunci ottimizzati su Airbnb e Booking",
         "Assistenza ospiti 7 giorni su 7",
@@ -357,6 +369,10 @@
       "back": "← Torna al blog",
       "onlyEs": "Disponibile in spagnolo"
     },
-    "demoBanner": "⚠️ Versione demo: foto, testi e calendari sono di esempio."
+    "demoBanner": "⚠️ Versione demo: gli appartamenti elencati e i loro calendari sono di esempio.",
+    "gallery": {
+      "title": "Galleria",
+      "subtitle": "Foto reali dei nostri appartamenti a Málaga."
+    }
   }
 }

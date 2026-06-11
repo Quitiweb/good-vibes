@@ -2,11 +2,15 @@
   "name": "Good Vibes Apartments",
   "url": "https://gvibes.quitiweb.com",
   "defaultLang": "es",
-  "langs": ["es", "en", "fr", "it"],
-  "email": "hola@goodvibesapartments.com",
-  "phone": "+34 600 000 000",
-  "whatsapp": "34600000000",
+  "langs": [
+    "es",
+    "en",
+    "fr",
+    "it"
+  ],
+  "email": "goodvibesapartments@gmail.com",
+  "phone": "+34 666 32 98 13",
+  "whatsapp": "34666329813",
   "city": "Málaga",
-  "instagram": "https://instagram.com/goodvibesapartments",
   "demoNote": true
 }
