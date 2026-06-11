@@ -9,19 +9,27 @@
   const lang = document.documentElement.lang || "es";
   const ranges = JSON.parse(dataEl.textContent || "[]");
 
+  // Siempre en fecha local: nada de toISOString(), que usa UTC y desplaza un día.
+  const isoLocal = (d) =>
+    d.getFullYear() +
+    "-" +
+    String(d.getMonth() + 1).padStart(2, "0") +
+    "-" +
+    String(d.getDate()).padStart(2, "0");
+
   const busy = new Set();
   for (const [start, end] of ranges) {
     const d = new Date(start + "T00:00:00");
     const stop = new Date(end + "T00:00:00");
     while (d < stop) {
-      busy.add(d.toISOString().slice(0, 10));
+      busy.add(isoLocal(d));
       d.setDate(d.getDate() + 1);
     }
   }
 
   const today = new Date();
   today.setHours(0, 0, 0, 0);
-  const todayIso = today.toISOString().slice(0, 10);
+  const todayIso = isoLocal(today);
 
   const monthFmt = new Intl.DateTimeFormat(lang, { month: "long", year: "numeric" });
   const dowFmt = new Intl.DateTimeFormat(lang, { weekday: "narrow" });
@@ -39,7 +47,8 @@
     month.className = "cal-month";
 
     const h = document.createElement("h3");
-    h.textContent = monthFmt.format(first);
+    const label = monthFmt.format(first);
+    h.textContent = label.charAt(0).toUpperCase() + label.slice(1);
     month.appendChild(h);
 
     const grid = document.createElement("div");
@@ -65,7 +74,8 @@
         "-" +
         String(date.getDate()).padStart(2, "0");
       const cell = document.createElement("span");
-      cell.className = "cal-day " + (iso < todayIso ? "past" : busy.has(iso) ? "busy" : "free");
+      cell.className =
+        "cal-day " + (iso < todayIso ? "past" : busy.has(iso) ? "busy" : "free");
       cell.textContent = day;
       grid.appendChild(cell);
     }

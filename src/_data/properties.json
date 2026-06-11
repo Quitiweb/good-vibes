@@ -13,10 +13,10 @@
       "it": "A due passi dalla Cattedrale e dal Museo Picasso. Appartamento luminoso e appena ristrutturato, con balcone su una via pedonale e tutto ciò che serve per sentirsi a casa dal primo minuto."
     },
     "photos": [
-      { "src": "https://picsum.photos/seed/gv-centro-1/1200/800", "alt": "Salón" },
-      { "src": "https://picsum.photos/seed/gv-centro-2/1200/800", "alt": "Dormitorio principal" },
-      { "src": "https://picsum.photos/seed/gv-centro-3/1200/800", "alt": "Cocina" },
-      { "src": "https://picsum.photos/seed/gv-centro-4/1200/800", "alt": "Balcón" }
+      { "src": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&q=80&auto=format&fit=crop", "alt": "Salón" },
+      { "src": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1200&q=80&auto=format&fit=crop", "alt": "Dormitorio principal" },
+      { "src": "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?w=1200&q=80&auto=format&fit=crop", "alt": "Cocina" },
+      { "src": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1200&q=80&auto=format&fit=crop", "alt": "Salón con balcón" }
     ],
     "airbnb": "https://www.airbnb.es/rooms/EXAMPLE",
     "booking": "https://www.booking.com/hotel/es/EXAMPLE.html",
@@ -36,9 +36,9 @@
       "it": "Nel cuore del quartiere delle arti, tra il porto e il centro. Ideale per coppie o per qualche giorno di smart working con tutto a portata di mano: caffetterie, musei e la spiaggia a 10 minuti a piedi."
     },
     "photos": [
-      { "src": "https://picsum.photos/seed/gv-soho-1/1200/800", "alt": "Salón con zona de trabajo" },
-      { "src": "https://picsum.photos/seed/gv-soho-2/1200/800", "alt": "Dormitorio" },
-      { "src": "https://picsum.photos/seed/gv-soho-3/1200/800", "alt": "Baño" }
+      { "src": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=1200&q=80&auto=format&fit=crop", "alt": "Salón con zona de trabajo" },
+      { "src": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1200&q=80&auto=format&fit=crop", "alt": "Dormitorio" },
+      { "src": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=1200&q=80&auto=format&fit=crop", "alt": "Baño" }
     ],
     "airbnb": "https://www.airbnb.es/rooms/EXAMPLE",
     "booking": "https://www.booking.com/hotel/es/EXAMPLE.html",
@@ -58,11 +58,11 @@
       "it": "Terrazza con vista mare e la spiaggia della Malagueta a 50 metri. Tre camere spaziose, perfetto per famiglie o gruppi che vogliono sole, lungomare e gli spiedini di sardine a due passi da casa."
     },
     "photos": [
-      { "src": "https://picsum.photos/seed/gv-playa-1/1200/800", "alt": "Terraza con vistas" },
-      { "src": "https://picsum.photos/seed/gv-playa-2/1200/800", "alt": "Salón" },
-      { "src": "https://picsum.photos/seed/gv-playa-3/1200/800", "alt": "Dormitorio principal" },
-      { "src": "https://picsum.photos/seed/gv-playa-4/1200/800", "alt": "Cocina" },
-      { "src": "https://picsum.photos/seed/gv-playa-5/1200/800", "alt": "Segundo dormitorio" }
+      { "src": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80&auto=format&fit=crop", "alt": "Vistas a la playa" },
+      { "src": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=1200&q=80&auto=format&fit=crop", "alt": "Salón" },
+      { "src": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=1200&q=80&auto=format&fit=crop", "alt": "Dormitorio principal" },
+      { "src": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1200&q=80&auto=format&fit=crop", "alt": "Cocina" },
+      { "src": "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=1200&q=80&auto=format&fit=crop", "alt": "Segundo dormitorio" }
     ],
     "airbnb": "https://www.airbnb.es/rooms/EXAMPLE",
     "booking": "https://www.booking.com/hotel/es/EXAMPLE.html",
@@ -82,9 +82,9 @@
       "it": "Attico tranquillo nel quartiere marinaro di El Palo, con piscina condominiale e una terrazza enorme per fare colazione guardando il Mediterraneo. Il centro è a 15 minuti in autobus o in bici lungo il lungomare."
     },
     "photos": [
-      { "src": "https://picsum.photos/seed/gv-palo-1/1200/800", "alt": "Terraza del ático" },
-      { "src": "https://picsum.photos/seed/gv-palo-2/1200/800", "alt": "Salón" },
-      { "src": "https://picsum.photos/seed/gv-palo-3/1200/800", "alt": "Piscina comunitaria" }
+      { "src": "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=1200&q=80&auto=format&fit=crop", "alt": "Terraza del ático" },
+      { "src": "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=1200&q=80&auto=format&fit=crop", "alt": "Salón" },
+      { "src": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80&auto=format&fit=crop", "alt": "Piscina comunitaria" }
     ],
     "airbnb": "https://www.airbnb.es/rooms/EXAMPLE",
     "booking": "https://www.booking.com/hotel/es/EXAMPLE.html",
@@ -104,9 +104,9 @@
       "it": "Monolocale grazioso a 30 secondi da Calle Larios. Piccolo fuori, completissimo dentro: cucina attrezzata, letto matrimoniale e la migliore posizione possibile per una fuga in città."
     },
     "photos": [
-      { "src": "https://picsum.photos/seed/gv-larios-1/1200/800", "alt": "Estudio" },
-      { "src": "https://picsum.photos/seed/gv-larios-2/1200/800", "alt": "Cocina" },
-      { "src": "https://picsum.photos/seed/gv-larios-3/1200/800", "alt": "Baño" }
+      { "src": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&q=80&auto=format&fit=crop", "alt": "Estudio" },
+      { "src": "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=1200&q=80&auto=format&fit=crop", "alt": "Cocina" },
+      { "src": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1200&q=80&auto=format&fit=crop", "alt": "Baño" }
     ],
     "airbnb": "https://www.airbnb.es/rooms/EXAMPLE",
     "booking": "https://www.booking.com/hotel/es/EXAMPLE.html",
@@ -126,10 +126,10 @@
       "it": "Appartamento ampio e comodo in zona residenziale, con parcheggio incluso e ben collegato con la metro. La scelta perfetta per soggiorni lunghi, famiglie in auto o visite all'università e all'ospedale."
     },
     "photos": [
-      { "src": "https://picsum.photos/seed/gv-teatinos-1/1200/800", "alt": "Salón comedor" },
-      { "src": "https://picsum.photos/seed/gv-teatinos-2/1200/800", "alt": "Dormitorio principal" },
-      { "src": "https://picsum.photos/seed/gv-teatinos-3/1200/800", "alt": "Cocina" },
-      { "src": "https://picsum.photos/seed/gv-teatinos-4/1200/800", "alt": "Dormitorio infantil" }
+      { "src": "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=1200&q=80&auto=format&fit=crop", "alt": "Salón comedor" },
+      { "src": "https://images.unsplash.com/photo-1499916078039-922301b0eb9b?w=1200&q=80&auto=format&fit=crop", "alt": "Dormitorio principal" },
+      { "src": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=1200&q=80&auto=format&fit=crop", "alt": "Cocina" },
+      { "src": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80&auto=format&fit=crop", "alt": "Dormitorio infantil" }
     ],
     "airbnb": "https://www.airbnb.es/rooms/EXAMPLE",
     "booking": "https://www.booking.com/hotel/es/EXAMPLE.html",

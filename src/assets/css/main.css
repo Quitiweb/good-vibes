@@ -303,6 +303,26 @@ h2 { font-size: 1.5rem; }
 }
 .booking-box h2 { margin: 0 0 0.3rem; font-size: 1.1rem; }
 
+/* En móvil, la caja de reserva pasa a barra fija inferior */
+@media (max-width: 899px) {
+  .property-page { padding-bottom: 4.5rem; }
+  .booking-box {
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 60;
+    flex-direction: row;
+    border-radius: 16px 16px 0 0;
+    padding: 0.7rem 0.8rem calc(0.7rem + env(safe-area-inset-bottom));
+    gap: 0.5rem;
+    box-shadow: 0 -4px 16px rgba(22, 50, 58, 0.15);
+  }
+  .booking-box h2 { display: none; }
+  .booking-box .btn { flex: 1; padding: 0.65rem 0.4rem; font-size: 0.82rem; }
+}
+
 /* Calendar */
 .calendar {
   display: grid;
@@ -321,7 +341,6 @@ h2 { font-size: 1.5rem; }
   margin: 0 0 0.5rem;
   font-size: 0.95rem;
   text-align: center;
-  text-transform: capitalize;
 }
 .cal-grid {
   display: grid;
