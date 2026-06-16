@@ -1,7 +1,7 @@
 {% set t = i18n[lang] %}
 <article class="property-card" data-type="{{ prop.type }}" data-price="{{ prop.priceFrom }}" data-bedrooms="{{ prop.bedrooms }}" data-guests="{{ prop.guests }}">
   <a class="card-photo" href="{{ (langmeta[lang].propertiesDir + prop.slug + '/') | url }}">
-    <img src="{{ prop.photos[0].src }}" alt="{{ prop.name[lang] }}" loading="lazy" width="600" height="400">
+    <img src="{{ prop.photos[0].src | url }}" alt="{{ prop.name[lang] }}" loading="lazy" width="600" height="400">
     <span class="photo-count">📷 {{ prop.photos | length }}</span>
   </a>
   <div class="card-body">
@@ -12,7 +12,11 @@
     {%- endif %}
     <ul class="specs">
       <li>{{ prop.guests }} {{ t.property.guests1 if prop.guests == 1 else t.property.guests }}</li>
+      {%- if prop.bedrooms > 0 %}
       <li>{{ prop.bedrooms }} {{ t.property.bedrooms1 if prop.bedrooms == 1 else t.property.bedrooms }}</li>
+      {%- else %}
+      <li>{{ prop.beds }} {{ t.property.beds1 if prop.beds == 1 else t.property.beds }}</li>
+      {%- endif %}
       <li>{{ prop.baths }} {{ t.property.baths1 if prop.baths == 1 else t.property.baths }}</li>
       <li>{{ prop.sqm }} {{ t.property.sqm }}</li>
     </ul>

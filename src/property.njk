@@ -3,13 +3,14 @@ pagination:
   data: propertyPages
   size: 1
   alias: pp
+  addAllPagesToCollections: true
 permalink: "{{ pp.permalink }}"
 layout: layouts/base.njk
 eleventyComputed:
   lang: "{{ pp.lang }}"
   pageTitle: "{{ pp.prop.name[pp.lang] }} · {{ pp.prop.zone }} — Good Vibes Apartments"
   pageDesc: "{{ pp.prop.description[pp.lang] }}"
-  ogImage: "{{ pp.prop.photos[0].src }}"
+  ogImage: "{{ site.url }}{{ pp.prop.photos[0].src }}"
   altUrls:
     es: "{{ langmeta.es.propertiesDir }}{{ pp.prop.slug }}/"
     en: "{{ langmeta.en.propertiesDir }}{{ pp.prop.slug }}/"
@@ -26,13 +27,13 @@ eleventyComputed:
 
     <header class="property-header">
       <h1>{{ prop.name[lang] }}</h1>
-      <p class="card-zone">📍 {{ prop.zone }}, {{ site.city }}</p>
+      <p class="card-zone">📍 {{ prop.address or prop.zone }}, {{ site.city }} · {{ t.types[prop.type] }}</p>
     </header>
 
     <div class="gallery" aria-label="{{ prop.name[lang] }}">
       {%- for photo in prop.photos %}
       <figure class="gallery-item">
-        <img src="{{ photo.src }}" alt="{{ photo.alt }}" {{ 'loading="lazy"' | safe if not loop.first }} width="1200" height="800">
+        <img src="{{ photo.src | url }}" alt="{{ photo.alt }}" {{ 'loading="lazy"' | safe if not loop.first }} width="1200" height="800">
       </figure>
       {%- endfor %}
     </div>
@@ -42,7 +43,7 @@ eleventyComputed:
       <div class="property-main">
         <ul class="specs specs-lg">
           <li>👥 {{ prop.guests }} {{ t.property.guests1 if prop.guests == 1 else t.property.guests }}</li>
-          <li>🛏 {{ prop.bedrooms }} {{ t.property.bedrooms1 if prop.bedrooms == 1 else t.property.bedrooms }} · {{ prop.beds }} {{ t.property.beds1 if prop.beds == 1 else t.property.beds }}</li>
+          <li>🛏 {% if prop.bedrooms > 0 %}{{ prop.bedrooms }} {{ t.property.bedrooms1 if prop.bedrooms == 1 else t.property.bedrooms }}{% else %}{{ t.types.studio }}{% endif %} · {{ prop.beds }} {{ t.property.beds1 if prop.beds == 1 else t.property.beds }}</li>
           <li>🛁 {{ prop.baths }} {{ t.property.baths1 if prop.baths == 1 else t.property.baths }}</li>
           <li>📐 {{ prop.sqm }} {{ t.property.sqm }}</li>
         </ul>
@@ -86,7 +87,7 @@ eleventyComputed:
   "name": prop.name[lang],
   "description": prop.description[lang],
   "url": site.url + page.url,
-  "image": prop.photos[0].src,
+  "image": site.url + prop.photos[0].src,
   "numberOfBedrooms": prop.bedrooms,
   "numberOfBathroomsTotal": prop.baths,
   "occupancy": { "@type": "QuantitativeValue", "maxValue": prop.guests, "unitCode": "C62" },

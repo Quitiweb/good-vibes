@@ -1,351 +1,124 @@
 [
   {
-    "slug": "centro-historico",
-    "example": true,
+    "slug": "trinidad-1",
     "name": {
-      "es": "Good Vibes Centro Histórico",
-      "en": "Good Vibes Old Town",
-      "fr": "Good Vibes Centre Historique",
-      "it": "Good Vibes Centro Storico"
+      "es": "Good Vibes Estudio De Luxe Trinidad 1",
+      "en": "Good Vibes Deluxe Studio Trinidad 1",
+      "fr": "Good Vibes Studio De Luxe Trinidad 1",
+      "it": "Good Vibes Monolocale De Luxe Trinidad 1"
     },
-    "zone": "Centro Histórico",
-    "guests": 4,
-    "bedrooms": 2,
-    "beds": 3,
+    "zone": "La Trinidad",
+    "address": "Calle Trinidad 6, 1ºA",
+    "guests": 3,
+    "bedrooms": 0,
+    "beds": 2,
     "baths": 1,
-    "sqm": 65,
-    "features": [
-      "wifi",
-      "ac",
-      "kitchen",
-      "washer",
-      "elevator",
-      "balcony",
-      "tv"
-    ],
+    "sqm": 40,
+    "type": "studio",
+    "priceFrom": 60,
+    "lat": 36.7252,
+    "lng": -4.4298,
+    "features": ["wifi", "ac", "kitchen", "tv"],
     "description": {
-      "es": "A dos pasos de la Catedral y del Museo Picasso. Apartamento luminoso y recién reformado, con balcón a una calle peatonal y todo lo que necesitas para sentirte en casa desde el primer minuto.",
-      "en": "Steps away from the Cathedral and the Picasso Museum. A bright, newly renovated apartment with a balcony over a pedestrian street and everything you need to feel at home from minute one.",
-      "fr": "À deux pas de la cathédrale et du musée Picasso. Appartement lumineux et fraîchement rénové, avec balcon sur une rue piétonne et tout le nécessaire pour vous sentir chez vous dès la première minute.",
-      "it": "A due passi dalla Cattedrale e dal Museo Picasso. Appartamento luminoso e appena ristrutturato, con balcone su una via pedonale e tutto ciò che serve per sentirsi a casa dal primo minuto."
+      "es": "Estudio de lujo recién reformado en el barrio de la Trinidad, a un paseo del centro de Málaga. Espacio diáfano con cama king size, sofá cama y cocina totalmente equipada. Perfecto para parejas o una familia pequeña que quiere estar cerca de todo sin renunciar a la calma de un barrio con solera.",
+      "en": "A newly renovated deluxe studio in the Trinidad neighbourhood, a short walk from the centre of Málaga. One open space with a king-size bed, a sofa bed and a fully equipped kitchen. Perfect for couples or a small family who want to be close to everything while keeping the calm of a traditional barrio.",
+      "fr": "Studio de luxe récemment rénové dans le quartier de la Trinidad, à quelques pas du centre de Málaga. Un espace ouvert avec lit king size, canapé-lit et cuisine entièrement équipée. Parfait pour les couples ou une petite famille qui veut être proche de tout tout en gardant le calme d'un quartier authentique.",
+      "it": "Monolocale di lusso appena ristrutturato nel quartiere della Trinidad, a due passi dal centro di Málaga. Un unico ambiente con letto king size, divano letto e cucina completamente attrezzata. Perfetto per coppie o una piccola famiglia che vuole essere vicino a tutto senza rinunciare alla calma di un quartiere autentico."
     },
     "photos": [
-      {
-        "src": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Salón"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Dormitorio principal"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Cocina"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Salón con balcón"
-      }
+      { "src": "/assets/img/apartamentos/trinidad-1/01.jpg", "alt": "Estudio con cama, salón y cocina" },
+      { "src": "/assets/img/apartamentos/trinidad-1/02.jpg", "alt": "Salón con sofá cama" },
+      { "src": "/assets/img/apartamentos/trinidad-1/03.jpg", "alt": "Cocina totalmente equipada" },
+      { "src": "/assets/img/apartamentos/trinidad-1/04.jpg", "alt": "Cama king size" },
+      { "src": "/assets/img/apartamentos/trinidad-1/05.jpg", "alt": "Baño con bañera" }
     ],
-    "airbnb": "https://www.airbnb.es/rooms/EXAMPLE",
-    "booking": "https://www.booking.com/hotel/es/EXAMPLE.html",
+    "airbnb": "https://www.airbnb.es/rooms/21652845",
+    "booking": "https://www.booking.com/hotel/es/good-vibes-estudio-deluxe-trinidad-1.es.html",
     "ical": {
-      "airbnb": "",
-      "booking": ""
-    },
-    "type": "apartment",
-    "priceFrom": 95,
-    "lat": 36.7213,
-    "lng": -4.4216
+      "airbnb": "https://www.airbnb.es/calendar/ical/21652845.ics?t=78b3ee34353f475294b67ad3901be9f7",
+      "booking": "https://admin.booking.com/hotel/hoteladmin/ical.html?t=9c2ea8b7-d97e-4234-8ebd-f5f25e48b851"
+    }
   },
   {
-    "slug": "soho-malaga",
-    "example": true,
+    "slug": "trinidad-2",
     "name": {
-      "es": "Good Vibes Soho",
-      "en": "Good Vibes Soho",
-      "fr": "Good Vibes Soho",
-      "it": "Good Vibes Soho"
+      "es": "Good Vibes Estudio De Luxe Trinidad 2",
+      "en": "Good Vibes Deluxe Studio Trinidad 2",
+      "fr": "Good Vibes Studio De Luxe Trinidad 2",
+      "it": "Good Vibes Monolocale De Luxe Trinidad 2"
     },
-    "zone": "Soho",
+    "zone": "La Trinidad",
+    "address": "Calle Trinidad 6, 2ºA",
     "guests": 2,
-    "bedrooms": 1,
+    "bedrooms": 0,
+    "beds": 1,
+    "baths": 1,
+    "sqm": 40,
+    "type": "studio",
+    "priceFrom": 60,
+    "lat": 36.7250,
+    "lng": -4.4292,
+    "features": ["wifi", "ac", "kitchen", "tv"],
+    "description": {
+      "es": "Estudio de lujo luminoso en plena Trinidad, uno de los barrios más auténticos de Málaga. Cama king size, cocina equipada y un diseño cuidado en blanco y fucsia. Ideal para una escapada en pareja: el centro histórico queda a unos 10 minutos andando cruzando el río.",
+      "en": "A bright deluxe studio in the heart of Trinidad, one of the most authentic neighbourhoods in Málaga. King-size bed, equipped kitchen and a carefully styled white-and-fuchsia design. Ideal for a couple's getaway: the old town is about a 10-minute walk away across the river.",
+      "fr": "Studio de luxe lumineux au cœur de la Trinidad, l'un des quartiers les plus authentiques de Málaga. Lit king size, cuisine équipée et une décoration soignée en blanc et fuchsia. Idéal pour une escapade en couple : le centre historique est à environ 10 minutes à pied en traversant la rivière.",
+      "it": "Monolocale di lusso luminoso nel cuore della Trinidad, uno dei quartieri più autentici di Málaga. Letto king size, cucina attrezzata e un design curato in bianco e fucsia. Ideale per una fuga di coppia: il centro storico è a circa 10 minuti a piedi attraversando il fiume."
+    },
+    "photos": [
+      { "src": "/assets/img/apartamentos/trinidad-2/07.jpg", "alt": "Estudio con cama, salón y cocina" },
+      { "src": "/assets/img/apartamentos/trinidad-2/01.jpg", "alt": "Salón con sofá y zona de comedor" },
+      { "src": "/assets/img/apartamentos/trinidad-2/04.jpg", "alt": "Cocina y dormitorio" },
+      { "src": "/assets/img/apartamentos/trinidad-2/03.jpg", "alt": "Cama king size y salón" },
+      { "src": "/assets/img/apartamentos/trinidad-2/02.jpg", "alt": "Cocina con encimera azul" },
+      { "src": "/assets/img/apartamentos/trinidad-2/05.jpg", "alt": "Detalle de la cama" },
+      { "src": "/assets/img/apartamentos/trinidad-2/06.jpg", "alt": "Baño con bañera" }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/21660193",
+    "booking": "https://www.booking.com/hotel/es/good-vibes-estudio-deluxe-trinidad-2.es.html",
+    "ical": {
+      "airbnb": "https://www.airbnb.es/calendar/ical/21660193.ics?t=89dc2410ef35460d96f702661570377e",
+      "booking": "https://admin.booking.com/hotel/hoteladmin/ical.html?t=c5b047d1-e517-487b-a90e-9e8571f7f1ba"
+    }
+  },
+  {
+    "slug": "trinidad-3",
+    "name": {
+      "es": "Good Vibes Estudio De Luxe Trinidad 3",
+      "en": "Good Vibes Deluxe Studio Trinidad 3",
+      "fr": "Good Vibes Studio De Luxe Trinidad 3",
+      "it": "Good Vibes Monolocale De Luxe Trinidad 3"
+    },
+    "zone": "La Trinidad",
+    "address": "Calle Trinidad 6, 2ºB",
+    "guests": 2,
+    "bedrooms": 0,
     "beds": 1,
     "baths": 1,
     "sqm": 45,
-    "features": [
-      "wifi",
-      "ac",
-      "kitchen",
-      "washer",
-      "tv",
-      "workspace"
-    ],
-    "description": {
-      "es": "En pleno barrio de las artes, entre el puerto y el centro. Ideal para parejas o para teletrabajar unos días con todo a mano: cafeterías, museos y la playa a 10 minutos andando.",
-      "en": "In the heart of the arts district, between the port and the city centre. Perfect for couples or a few days of remote work with everything at hand: cafés, museums and the beach 10 minutes away on foot.",
-      "fr": "Au cœur du quartier des arts, entre le port et le centre. Idéal pour les couples ou quelques jours de télétravail avec tout à portée de main : cafés, musées et la plage à 10 minutes à pied.",
-      "it": "Nel cuore del quartiere delle arti, tra il porto e il centro. Ideale per coppie o per qualche giorno di smart working con tutto a portata di mano: caffetterie, musei e la spiaggia a 10 minuti a piedi."
-    },
-    "photos": [
-      {
-        "src": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Salón con zona de trabajo"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Dormitorio"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Baño"
-      }
-    ],
-    "airbnb": "https://www.airbnb.es/rooms/EXAMPLE",
-    "booking": "https://www.booking.com/hotel/es/EXAMPLE.html",
-    "ical": {
-      "airbnb": "",
-      "booking": ""
-    },
-    "type": "apartment",
-    "priceFrom": 75,
-    "lat": 36.7152,
-    "lng": -4.4231
-  },
-  {
-    "slug": "malagueta-playa",
-    "example": true,
-    "name": {
-      "es": "Good Vibes Malagueta Playa",
-      "en": "Good Vibes Malagueta Beach",
-      "fr": "Good Vibes Plage Malagueta",
-      "it": "Good Vibes Spiaggia Malagueta"
-    },
-    "zone": "La Malagueta",
-    "guests": 6,
-    "bedrooms": 3,
-    "beds": 4,
-    "baths": 2,
-    "sqm": 95,
-    "features": [
-      "wifi",
-      "ac",
-      "kitchen",
-      "washer",
-      "elevator",
-      "terrace",
-      "seaview",
-      "parking",
-      "tv"
-    ],
-    "description": {
-      "es": "Terraza con vistas al mar y la playa de la Malagueta a 50 metros. Tres dormitorios amplios, perfecto para familias o grupos que quieren sol, paseo marítimo y espetos al lado de casa.",
-      "en": "A terrace with sea views and La Malagueta beach 50 metres away. Three spacious bedrooms, perfect for families or groups who want sunshine, the seafront promenade and grilled sardines right next door.",
-      "fr": "Terrasse avec vue sur la mer et la plage de la Malagueta à 50 mètres. Trois grandes chambres, parfait pour les familles ou les groupes qui veulent du soleil, la promenade maritime et les fameuses sardines grillées à côté.",
-      "it": "Terrazza con vista mare e la spiaggia della Malagueta a 50 metri. Tre camere spaziose, perfetto per famiglie o gruppi che vogliono sole, lungomare e gli spiedini di sardine a due passi da casa."
-    },
-    "photos": [
-      {
-        "src": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Vistas a la playa"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Salón"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Dormitorio principal"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Cocina"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Segundo dormitorio"
-      }
-    ],
-    "airbnb": "https://www.airbnb.es/rooms/EXAMPLE",
-    "booking": "https://www.booking.com/hotel/es/EXAMPLE.html",
-    "ical": {
-      "airbnb": "",
-      "booking": ""
-    },
-    "type": "apartment",
-    "priceFrom": 140,
-    "lat": 36.7196,
-    "lng": -4.4093
-  },
-  {
-    "slug": "atico-el-palo",
-    "example": true,
-    "name": {
-      "es": "Good Vibes Ático El Palo",
-      "en": "Good Vibes Penthouse El Palo",
-      "fr": "Good Vibes Attique El Palo",
-      "it": "Good Vibes Attico El Palo"
-    },
-    "zone": "El Palo",
-    "guests": 4,
-    "bedrooms": 2,
-    "beds": 2,
-    "baths": 2,
-    "sqm": 78,
-    "features": [
-      "wifi",
-      "ac",
-      "heating",
-      "kitchen",
-      "washer",
-      "terrace",
-      "seaview",
-      "pool",
-      "parking"
-    ],
-    "description": {
-      "es": "Ático tranquilo en el barrio marinero de El Palo, con piscina comunitaria y una terraza enorme para desayunar mirando al Mediterráneo. El centro queda a 15 minutos en bus o bici por el paseo.",
-      "en": "A quiet penthouse in the fishing district of El Palo, with a shared pool and a huge terrace for breakfast overlooking the Mediterranean. The city centre is 15 minutes away by bus or by bike along the promenade.",
-      "fr": "Attique tranquille dans le quartier de pêcheurs d'El Palo, avec piscine commune et une immense terrasse pour petit-déjeuner face à la Méditerranée. Le centre est à 15 minutes en bus ou à vélo par la promenade.",
-      "it": "Attico tranquillo nel quartiere marinaro di El Palo, con piscina condominiale e una terrazza enorme per fare colazione guardando il Mediterraneo. Il centro è a 15 minuti in autobus o in bici lungo il lungomare."
-    },
-    "photos": [
-      {
-        "src": "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Terraza del ático"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Salón"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Piscina comunitaria"
-      }
-    ],
-    "airbnb": "https://www.airbnb.es/rooms/EXAMPLE",
-    "booking": "https://www.booking.com/hotel/es/EXAMPLE.html",
-    "ical": {
-      "airbnb": "",
-      "booking": ""
-    },
-    "type": "penthouse",
-    "priceFrom": 110,
-    "lat": 36.7205,
-    "lng": -4.358
-  },
-  {
-    "slug": "estudio-larios",
-    "example": true,
-    "name": {
-      "es": "Good Vibes Estudio Larios",
-      "en": "Good Vibes Larios Studio",
-      "fr": "Good Vibes Studio Larios",
-      "it": "Good Vibes Studio Larios"
-    },
-    "zone": "Calle Larios",
-    "guests": 2,
-    "bedrooms": 1,
-    "beds": 1,
-    "baths": 1,
-    "sqm": 35,
-    "features": [
-      "wifi",
-      "ac",
-      "kitchen",
-      "elevator",
-      "tv"
-    ],
-    "description": {
-      "es": "Estudio coqueto a 30 segundos de Calle Larios. Pequeño por fuera, completísimo por dentro: cocina equipada, cama de matrimonio y la mejor ubicación posible para una escapada urbana.",
-      "en": "A charming studio 30 seconds from Calle Larios. Small on the outside, complete on the inside: equipped kitchen, double bed and the best possible location for a city break.",
-      "fr": "Studio charmant à 30 secondes de la Calle Larios. Petit dehors, très complet dedans : cuisine équipée, lit double et le meilleur emplacement possible pour une escapade urbaine.",
-      "it": "Monolocale grazioso a 30 secondi da Calle Larios. Piccolo fuori, completissimo dentro: cucina attrezzata, letto matrimoniale e la migliore posizione possibile per una fuga in città."
-    },
-    "photos": [
-      {
-        "src": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Estudio"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Cocina"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Baño"
-      }
-    ],
-    "airbnb": "https://www.airbnb.es/rooms/EXAMPLE",
-    "booking": "https://www.booking.com/hotel/es/EXAMPLE.html",
-    "ical": {
-      "airbnb": "",
-      "booking": ""
-    },
     "type": "studio",
     "priceFrom": 60,
-    "lat": 36.7197,
-    "lng": -4.4202
-  },
-  {
-    "slug": "familiar-teatinos",
-    "example": true,
-    "name": {
-      "es": "Good Vibes Familiar Teatinos",
-      "en": "Good Vibes Family Teatinos",
-      "fr": "Good Vibes Familial Teatinos",
-      "it": "Good Vibes Famiglia Teatinos"
-    },
-    "zone": "Teatinos",
-    "guests": 5,
-    "bedrooms": 3,
-    "beds": 4,
-    "baths": 2,
-    "sqm": 90,
-    "features": [
-      "wifi",
-      "ac",
-      "heating",
-      "kitchen",
-      "washer",
-      "elevator",
-      "parking",
-      "tv",
-      "petfriendly"
-    ],
+    "lat": 36.7247,
+    "lng": -4.4296,
+    "features": ["wifi", "ac", "kitchen", "tv"],
     "description": {
-      "es": "Piso amplio y cómodo en zona residencial, con parking incluido y muy bien conectado en metro. La opción perfecta para estancias largas, familias con coche o visitas a la universidad y al hospital.",
-      "en": "A spacious, comfortable flat in a residential area, with parking included and great metro connections. The perfect choice for longer stays, families with a car, or visits to the university and hospital.",
-      "fr": "Appartement spacieux et confortable dans un quartier résidentiel, avec parking inclus et très bien relié en métro. L'option parfaite pour les longs séjours, les familles en voiture ou les visites à l'université et à l'hôpital.",
-      "it": "Appartamento ampio e comodo in zona residenziale, con parcheggio incluso e ben collegato con la metro. La scelta perfetta per soggiorni lunghi, famiglie in auto o visite all'università e all'ospedale."
+      "es": "El más acogedor de nuestros estudios en la Trinidad, con un encantador aire vintage y un rincón de dormitorio recogido. Cocina equipada, salón con sofá y mucha luz natural. A un paseo del centro de Málaga y del ambiente de barrio de toda la vida.",
+      "en": "The cosiest of our Trinidad studios, with a charming vintage feel and a tucked-away sleeping corner. Equipped kitchen, a living area with a sofa and plenty of natural light. A short walk from the centre of Málaga and from real, everyday barrio life.",
+      "fr": "Le plus chaleureux de nos studios de la Trinidad, avec un charmant esprit vintage et un coin nuit à part. Cuisine équipée, salon avec canapé et beaucoup de lumière naturelle. À quelques pas du centre de Málaga et de l'ambiance d'un quartier authentique.",
+      "it": "Il più accogliente dei nostri monolocali nella Trinidad, con un affascinante tocco vintage e un angolo notte raccolto. Cucina attrezzata, zona soggiorno con divano e tanta luce naturale. A due passi dal centro di Málaga e dalla vita di quartiere di sempre."
     },
     "photos": [
-      {
-        "src": "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Salón comedor"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1499916078039-922301b0eb9b?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Dormitorio principal"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Cocina"
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80&auto=format&fit=crop",
-        "alt": "Dormitorio infantil"
-      }
+      { "src": "/assets/img/apartamentos/trinidad-3/02.jpg", "alt": "Salón con sofá amarillo y cocina" },
+      { "src": "/assets/img/apartamentos/trinidad-3/01.jpg", "alt": "Sofá amarillo y rincón de estar" },
+      { "src": "/assets/img/apartamentos/trinidad-3/03.jpg", "alt": "Zona de comedor" },
+      { "src": "/assets/img/apartamentos/trinidad-3/04.jpg", "alt": "Cocina equipada" },
+      { "src": "/assets/img/apartamentos/trinidad-3/05.jpg", "alt": "Dormitorio con cama de matrimonio" }
     ],
-    "airbnb": "https://www.airbnb.es/rooms/EXAMPLE",
-    "booking": "https://www.booking.com/hotel/es/EXAMPLE.html",
+    "airbnb": "https://www.airbnb.es/rooms/24845210",
+    "booking": "https://www.booking.com/hotel/es/good-vibes-estudio-deluxe-trinidad-3.es.html",
     "ical": {
-      "airbnb": "",
-      "booking": ""
-    },
-    "type": "apartment",
-    "priceFrom": 85,
-    "lat": 36.7322,
-    "lng": -4.475
+      "airbnb": "https://www.airbnb.es/calendar/ical/24845210.ics?t=4478624145964189aceac8cef771a5ef",
+      "booking": "https://admin.booking.com/hotel/hoteladmin/ical.html?t=9Q5mh9CtnNp07dlx-AMagI2BvJzvSgSmXyJvtyedaUPTanqCgwrUstZYWh0JsHizR008MeCK0mJ8qMtKyb_eoiyka6QNBJXS8lBjmzoiUzb0C0SBKi5iFG3TqgZ-KdZ2vBlvRKeUoRhkjoes16g0Gk7WpU9Nsn_ITeno7w"
+    }
   }
 ]

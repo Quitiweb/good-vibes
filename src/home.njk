@@ -5,6 +5,7 @@ pagination:
   data: site.langs
   size: 1
   alias: lang
+  addAllPagesToCollections: true
 permalink: "{{ langmeta[lang].home }}"
 layout: layouts/base.njk
 eleventyComputed:
@@ -87,7 +88,7 @@ eleventyComputed:
 </section>
 <script type="application/json" id="map-data">[
 {%- for prop in properties -%}
-{"name": {{ prop.name[lang] | jsonify | safe }}, "zone": {{ prop.zone | jsonify | safe }}, "price": {{ prop.priceFrom or 0 }}, "lat": {{ prop.lat }}, "lng": {{ prop.lng }}, "url": {{ ((langmeta[lang].propertiesDir + prop.slug + '/') | url) | jsonify | safe }}, "photo": {{ prop.photos[0].src | jsonify | safe }}, "night": {{ t.properties.night | jsonify | safe }}, "view": {{ t.map.view | jsonify | safe }}}{{ "," if not loop.last }}
+{"name": {{ prop.name[lang] | jsonify | safe }}, "zone": {{ prop.zone | jsonify | safe }}, "price": {{ prop.priceFrom or 0 }}, "lat": {{ prop.lat }}, "lng": {{ prop.lng }}, "url": {{ ((langmeta[lang].propertiesDir + prop.slug + '/') | url) | jsonify | safe }}, "photo": {{ (prop.photos[0].src | url) | jsonify | safe }}, "night": {{ t.properties.night | jsonify | safe }}, "view": {{ t.map.view | jsonify | safe }}}{{ "," if not loop.last }}
 {%- endfor -%}
 ]</script>
 

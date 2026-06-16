@@ -4,8 +4,11 @@ MVP de la nueva web de [goodvibesapartments.com](https://goodvibesapartments.com
 estática, multiidioma (ES/EN/FR/IT), mobile-first y sin motor de reservas —
 fotos, descripción breve, calendario de disponibilidad y enlaces a Airbnb/Booking.
 
-**⚠️ Estado: demo.** Las 6 propiedades, fotos (Unsplash), enlaces y calendarios
-son datos de ejemplo para enseñar a Pedro. Ver "Qué necesitamos de Pedro".
+**Estado: en producción con datos reales.** Publica los 3 estudios reales de
+Pedro (Good Vibes Estudio De Luxe Trinidad 1, 2 y 3, en Calle Trinidad 6,
+Málaga) con fotos propias, enlaces a Airbnb/Booking y calendarios sincronizados
+por iCal. El aviso de demo (`demoNote` en `src/_data/site.json`) está desactivado.
+Faltan los apartamentos restantes de Pedro (ver "Qué necesitamos de Pedro").
 
 ## Desarrollo
 
@@ -72,18 +75,21 @@ y el archivo `CNAME`.
 
 ## Qué necesitamos de Pedro
 
-- [ ] Lista real de propiedades: nombre, zona, m², huéspedes, camas, baños
-- [ ] Tipo y precio "desde" por noche de cada piso (para los filtros del listado)
-- [ ] Fotos reales de cada piso (mín. 4 por piso, horizontales)
-- [ ] Descripción breve de cada piso (se la traducimos a EN/FR/IT)
-- [ ] Enlaces públicos de cada anuncio en Airbnb y Booking
-- [ ] URLs iCal de exportación de cada anuncio (Airbnb y Booking)
-- [ ] Teléfono/WhatsApp y email de contacto reales
-- [ ] Confirmar ciudad y zonas (ahora la demo dice Málaga)
-- [ ] Logo si lo tiene (si no, se queda el sol ☀️)
+Ya recibidos e integrados (16-jun-2026): los 3 estudios de Calle Trinidad 6
+(datos, fotos, enlaces Airbnb/Booking e iCal), contacto real y ciudad (Málaga).
 
-Cuando esté todo, poner `"demoNote": false` en `src/_data/site.json` para
-quitar el aviso amarillo de demo.
+Pendiente para completar el catálogo:
+
+- [ ] El resto de apartamentos (mismos datos: nombre, dirección, m², huéspedes,
+      camas, baños, tipo, precio base, fotos, enlaces Airbnb/Booking, iCal)
+- [ ] Confirmar si "Trinidad 3" debe figurar como estudio o como 1 dormitorio
+      (las fotos muestran un dormitorio algo independiente; ahora va como estudio,
+      igual que en sus anuncios)
+- [ ] Coordenadas exactas de cada edificio para el mapa (ahora son orientativas)
+- [ ] Logo en buena calidad (si no, se queda el sol ☀️)
+
+Para añadir un apartamento: nueva entrada en `src/_data/properties.json`, fotos
+en `src/assets/img/apartamentos/<slug>/` y `npm run sync:calendars`.
 
 ## SEO (para Luke)
 
