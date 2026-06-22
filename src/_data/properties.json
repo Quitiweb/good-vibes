@@ -120,5 +120,127 @@
       "airbnb": "https://www.airbnb.es/calendar/ical/24845210.ics?t=4478624145964189aceac8cef771a5ef",
       "booking": "https://admin.booking.com/hotel/hoteladmin/ical.html?t=9Q5mh9CtnNp07dlx-AMagI2BvJzvSgSmXyJvtyedaUPTanqCgwrUstZYWh0JsHizR008MeCK0mJ8qMtKyb_eoiyka6QNBJXS8lBjmzoiUzb0C0SBKi5iFG3TqgZ-KdZ2vBlvRKeUoRhkjoes16g0Gk7WpU9Nsn_ITeno7w"
     }
+  },
+  {
+    "slug": "sunny-penthouse",
+    "name": {
+      "es": "Sunny Penthouse Centro Histórico",
+      "en": "Sunny Penthouse Old Town",
+      "fr": "Sunny Penthouse Centre Historique",
+      "it": "Sunny Penthouse Centro Storico"
+    },
+    "zone": "Centro Histórico",
+    "address": "Plaza Arriola 3, 5ºC",
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 1,
+    "baths": 1,
+    "sqm": 45,
+    "type": "penthouse",
+    "priceFrom": 110,
+    "lat": 36.7178,
+    "lng": -4.4239,
+    "features": ["wifi", "ac", "kitchen", "terrace"],
+    "description": {
+      "es": "Ático con una terraza de 45 m² y vistas a los tejados y campanarios del centro de Málaga. Perfecto para una pareja: dormitorio independiente, cocina equipada y ese momento de vino al atardecer mirando la ciudad. A un paseo de la Alameda, el puerto y el Mercado de Atarazanas.",
+      "en": "A penthouse with a 45 m² terrace and views over the rooftops and bell towers of central Málaga. Perfect for a couple: separate bedroom, equipped kitchen and that glass of wine at sunset over the city. A short walk from the Alameda, the port and the Atarazanas market.",
+      "fr": "Attique avec une terrasse de 45 m² et vue sur les toits et clochers du centre de Málaga. Parfait pour un couple : chambre séparée, cuisine équipée et ce verre de vin au coucher du soleil face à la ville. À quelques pas de l'Alameda, du port et du marché d'Atarazanas.",
+      "it": "Attico con terrazza di 45 m² e vista sui tetti e i campanili del centro di Málaga. Perfetto per una coppia: camera separata, cucina attrezzata e quel bicchiere di vino al tramonto sulla città. A due passi dall'Alameda, dal porto e dal mercato di Atarazanas."
+    },
+    "photos": [
+      { "src": "/assets/img/apartamentos/sunny-penthouse/01.jpg", "alt": "Terraza con vistas al centro de Málaga" },
+      { "src": "/assets/img/apartamentos/sunny-penthouse/02.jpg", "alt": "Terraza con pérgola" },
+      { "src": "/assets/img/apartamentos/sunny-penthouse/03.jpg", "alt": "Terraza con tumbonas" },
+      { "src": "/assets/img/apartamentos/sunny-penthouse/04.jpg", "alt": "Dormitorio" },
+      { "src": "/assets/img/apartamentos/sunny-penthouse/05.jpg", "alt": "Salón" },
+      { "src": "/assets/img/apartamentos/sunny-penthouse/06.jpg", "alt": "Cocina equipada" },
+      { "src": "/assets/img/apartamentos/sunny-penthouse/07.jpg", "alt": "Baño" },
+      { "src": "/assets/img/apartamentos/sunny-penthouse/08.jpg", "alt": "Salón y cocina" }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/24059916",
+    "booking": "",
+    "ical": {
+      "airbnb": "https://www.airbnb.es/calendar/ical/24059916.ics?t=a0aabfc26d3d4f5f9a4c9f544be75ed4",
+      "booking": "https://admin.booking.com/hotel/hoteladmin/ical.html?t=cc100a9a-3b03-46e0-9d07-e2c1d5413610"
+    }
+  },
+  {
+    "slug": "family-friends-atarazanas",
+    "name": {
+      "es": "Family & Friends Atarazanas Market",
+      "en": "Family & Friends Atarazanas Market",
+      "fr": "Family & Friends Atarazanas Market",
+      "it": "Family & Friends Atarazanas Market"
+    },
+    "zone": "Centro Histórico",
+    "address": "Calle Panaderos 10, 5ºB",
+    "guests": 5,
+    "bedrooms": 2,
+    "beds": 3,
+    "baths": 1,
+    "sqm": 75,
+    "type": "apartment",
+    "priceFrom": 129,
+    "lat": 36.7235,
+    "lng": -4.4214,
+    "features": ["wifi", "ac", "kitchen"],
+    "description": {
+      "es": "Apartamento amplio y luminoso para hasta 5 personas, a un paso del Mercado de Atarazanas y del centro histórico. Dos dormitorios (cama de matrimonio y litera), salón cómodo y cocina equipada. Ideal para familias o grupos de amigos que quieren vivir Málaga a pie.",
+      "en": "A spacious, bright apartment for up to 5 people, steps from the Atarazanas market and the old town. Two bedrooms (a double and a bunk bed), a comfy living room and an equipped kitchen. Ideal for families or groups of friends who want to explore Málaga on foot.",
+      "fr": "Appartement spacieux et lumineux jusqu'à 5 personnes, à deux pas du marché d'Atarazanas et du centre historique. Deux chambres (un lit double et des lits superposés), un salon confortable et une cuisine équipée. Idéal pour les familles ou groupes d'amis qui veulent vivre Málaga à pied.",
+      "it": "Appartamento ampio e luminoso fino a 5 persone, a due passi dal mercato di Atarazanas e dal centro storico. Due camere (un letto matrimoniale e un letto a castello), un soggiorno comodo e una cucina attrezzata. Ideale per famiglie o gruppi di amici che vogliono vivere Málaga a piedi."
+    },
+    "photos": [
+      { "src": "/assets/img/apartamentos/family-friends-atarazanas/01.jpg", "alt": "Salón luminoso" },
+      { "src": "/assets/img/apartamentos/family-friends-atarazanas/05.jpg", "alt": "Dormitorio" },
+      { "src": "/assets/img/apartamentos/family-friends-atarazanas/03.jpg", "alt": "Salón y comedor" },
+      { "src": "/assets/img/apartamentos/family-friends-atarazanas/02.jpg", "alt": "Comedor" }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/1259423635279233641",
+    "booking": "",
+    "ical": {
+      "airbnb": "https://www.airbnb.es/calendar/ical/1259423635279233641.ics?t=35fb76d6fedf41f99f028010ef6d4a25",
+      "booking": ""
+    }
+  },
+  {
+    "slug": "downtown-jinetes",
+    "name": {
+      "es": "Downtown Jinetes Deluxe con piscina y parking gratis",
+      "en": "Downtown Jinetes Deluxe with pool & free parking",
+      "fr": "Downtown Jinetes Deluxe avec piscine et parking gratuit",
+      "it": "Downtown Jinetes Deluxe con piscina e parcheggio gratis"
+    },
+    "zone": "Centro Histórico",
+    "address": "Calle Jinetes 12, Bajo",
+    "guests": 4,
+    "bedrooms": 2,
+    "beds": 3,
+    "baths": 2,
+    "sqm": 75,
+    "type": "apartment",
+    "priceFrom": 149,
+    "lat": 36.7240,
+    "lng": -4.4218,
+    "features": ["wifi", "ac", "kitchen", "pool", "parking", "terrace"],
+    "description": {
+      "es": "Lo difícil en el centro de Málaga: piscina en la azotea y parking gratis incluido. Apartamento de 2 dormitorios y 2 baños con patio privado, a un paseo de la Plaza de la Merced y la calle Larios. Para familias o grupos que quieren comodidad, chapuzón y dejar el coche sin preocupaciones.",
+      "en": "The hard-to-find combo in central Málaga: a rooftop pool and free parking included. A 2-bedroom, 2-bathroom apartment with a private patio, a short walk from Plaza de la Merced and Calle Larios. For families or groups who want comfort, a dip in the pool and somewhere easy to leave the car.",
+      "fr": "L'introuvable au centre de Málaga : piscine sur le toit et parking gratuit inclus. Appartement de 2 chambres et 2 salles de bain avec patio privé, à quelques pas de la Plaza de la Merced et de la Calle Larios. Pour familles ou groupes qui veulent du confort, une baignade et où garer la voiture sans souci.",
+      "it": "L'introvabile nel centro di Málaga: piscina sul tetto e parcheggio gratuito incluso. Appartamento con 2 camere e 2 bagni con patio privato, a due passi da Plaza de la Merced e Calle Larios. Per famiglie o gruppi che vogliono comodità, un tuffo in piscina e dove lasciare l'auto senza pensieri."
+    },
+    "photos": [
+      { "src": "/assets/img/apartamentos/downtown-jinetes/01.jpg", "alt": "Dormitorio con salida al patio" },
+      { "src": "/assets/img/apartamentos/downtown-jinetes/07.jpg", "alt": "Piscina en la azotea" },
+      { "src": "/assets/img/apartamentos/downtown-jinetes/06.jpg", "alt": "Patio privado" },
+      { "src": "/assets/img/apartamentos/downtown-jinetes/02.jpg", "alt": "Piscina comunitaria" },
+      { "src": "/assets/img/apartamentos/downtown-jinetes/04.jpg", "alt": "Baño" }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/1026642923106463065",
+    "booking": "https://www.booking.com/hotel/es/downtown-jinetes-deluxe-with-pool-amp-free-parking.es.html",
+    "ical": {
+      "airbnb": "https://www.airbnb.es/calendar/ical/1026642923106463065.ics?t=9346b28fecf1406dbe6dd9d9b2d6318c",
+      "booking": "https://ical.booking.com/v1/export?t=37f8b2cb-d918-4089-a55e-f4d894252135"
+    }
   }
 ]

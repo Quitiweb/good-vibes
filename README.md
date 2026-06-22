@@ -75,21 +75,43 @@ y el archivo `CNAME`.
 
 ## Qué necesitamos de Pedro
 
-Ya recibidos e integrados (16-jun-2026): los 3 estudios de Calle Trinidad 6
-(datos, fotos, enlaces Airbnb/Booking e iCal), contacto real y ciudad (Málaga).
+Ya integrados: **6 apartamentos** (3 estudios de Calle Trinidad 6 + Sunny
+Penthouse, Family & Friends Atarazanas y Downtown Jinetes), con datos, fotos,
+enlaces Airbnb/Booking e iCal; contacto real, ciudad (Málaga) y **logo** real.
 
 Pendiente para completar el catálogo:
 
 - [ ] El resto de apartamentos (mismos datos: nombre, dirección, m², huéspedes,
-      camas, baños, tipo, precio base, fotos, enlaces Airbnb/Booking, iCal)
+      camas, baños, tipo, precio base, enlaces Airbnb/Booking, iCal)
+- [ ] Booking de Sunny Penthouse y Family & Friends cuando los publique
 - [ ] Confirmar si "Trinidad 3" debe figurar como estudio o como 1 dormitorio
-      (las fotos muestran un dormitorio algo independiente; ahora va como estudio,
-      igual que en sus anuncios)
 - [ ] Coordenadas exactas de cada edificio para el mapa (ahora son orientativas)
-- [ ] Logo en buena calidad (si no, se queda el sol ☀️)
+- [ ] Snippet embed del chatbot noupe (ver más abajo)
+
+### Fotos: se cogen de Airbnb
+Las fotos de cada piso se descargan **una vez** desde su anuncio de Airbnb
+(`scripts/fetch-airbnb-photos`, o a mano) y se guardan en
+`src/assets/img/apartamentos/<slug>/01.jpg…`. Así coinciden con las del anuncio
+(las que Pedro filtra antes de subirlas) y no hay que reenviarlas. Si Pedro
+actualiza las fotos en Airbnb, basta volver a descargarlas.
+
+> Nota iCal: los enlaces `admin.booking.com/...ical.html` son del panel y **no**
+> son públicos (dan HTTP 400 en la sincronización). El formato correcto es
+> `ical.booking.com/v1/export?t=...` (como en Downtown Jinetes). En todo caso el
+> iCal de Airbnb ya cubre la disponibilidad de cada piso.
 
 Para añadir un apartamento: nueva entrada en `src/_data/properties.json`, fotos
 en `src/assets/img/apartamentos/<slug>/` y `npm run sync:calendars`.
+
+## Logo y chatbot
+
+- **Logo:** marca en `src/assets/img/logo-icon.svg` (cabecera + favicon) y lockup
+  completo en `logo-full.svg`. Vienen de los PDF que envió Pedro
+  (`LOGO GOOD VIBES OP7` y `LOGO+TEXTO OP4`).
+- **Chatbot de FAQs (noupe/Jotform):** crear agente gratis en noupe.com
+  apuntándolo a https://gvibes.quitiweb.com, copiar el código *embed*, pegarlo en
+  `src/_includes/partials/chatbot.njk` y poner `"chatbot": true` en
+  `src/_data/site.json`. Aparece en todas las páginas e idiomas.
 
 ## SEO (para Luke)
 

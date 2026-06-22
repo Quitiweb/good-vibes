@@ -21,7 +21,7 @@
   {%- if ogImage %}
   <meta property="og:image" content="{{ ogImage }}">
   {%- endif %}
-  <link rel="icon" href="{{ '/assets/img/favicon.svg' | url }}" type="image/svg+xml">
+  <link rel="icon" href="{{ '/assets/img/logo-icon.svg' | url }}" type="image/svg+xml">
   <link rel="preconnect" href="https://images.unsplash.com">
   <link rel="stylesheet" href="{{ '/assets/css/fonts.css' | url }}">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}">
@@ -43,5 +43,6 @@
 <script src="{{ '/assets/vendor/leaflet/leaflet.js' | url }}" defer></script>
 <script src="{{ '/assets/js/map.js' | url }}" defer></script>
 {%- endif %}
+{% if site.chatbot %}{% include "partials/chatbot.njk" %}{% endif %}
 </body>
 </html>

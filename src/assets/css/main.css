@@ -63,7 +63,7 @@ h2 { font-size: 1.5rem; }
   color: var(--dark);
   text-decoration: none;
 }
-.logo-sun { color: var(--primary); flex-shrink: 0; }
+.logo-img { height: 30px; width: auto; flex-shrink: 0; display: block; }
 .main-nav {
   display: none;
   gap: 1.2rem;

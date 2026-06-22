@@ -12,5 +12,6 @@
   "phone": "+34 666 32 98 13",
   "whatsapp": "34666329813",
   "city": "Málaga",
-  "demoNote": false
+  "demoNote": false,
+  "chatbot": false
 }

@@ -71,8 +71,12 @@ eleventyComputed:
         {%- if prop.priceFrom %}
         <p class="booking-price">{{ t.properties.from }} <strong>{{ prop.priceFrom }} €</strong> / {{ t.properties.night }}<br><small>{{ t.property.priceNote }}</small></p>
         {%- endif %}
+        {%- if prop.airbnb %}
         <a class="btn btn-airbnb" href="{{ prop.airbnb }}" rel="noopener nofollow" target="_blank">{{ t.property.bookAirbnb }}</a>
+        {%- endif %}
+        {%- if prop.booking %}
         <a class="btn btn-booking" href="{{ prop.booking }}" rel="noopener nofollow" target="_blank">{{ t.property.bookBooking }}</a>
+        {%- endif %}
         <a class="btn btn-outline" href="https://wa.me/{{ site.whatsapp }}" rel="noopener">💬 WhatsApp</a>
       </aside>
     </div>
