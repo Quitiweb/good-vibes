@@ -1,12 +1,7 @@
 [
   {
     "slug": "trinidad-1",
-    "name": {
-      "es": "Good Vibes Estudio De Luxe Trinidad 1",
-      "en": "Good Vibes Deluxe Studio Trinidad 1",
-      "fr": "Good Vibes Studio De Luxe Trinidad 1",
-      "it": "Good Vibes Monolocale De Luxe Trinidad 1"
-    },
+    "name": "Good Vibes Estudio De Luxe Trinidad 1",
     "zone": "La Trinidad",
     "address": "Calle Trinidad 6, 1ºA",
     "guests": 3,
@@ -41,12 +36,7 @@
   },
   {
     "slug": "trinidad-2",
-    "name": {
-      "es": "Good Vibes Estudio De Luxe Trinidad 2",
-      "en": "Good Vibes Deluxe Studio Trinidad 2",
-      "fr": "Good Vibes Studio De Luxe Trinidad 2",
-      "it": "Good Vibes Monolocale De Luxe Trinidad 2"
-    },
+    "name": "Good Vibes Estudio De Luxe Trinidad 2",
     "zone": "La Trinidad",
     "address": "Calle Trinidad 6, 2ºA",
     "guests": 2,
@@ -83,12 +73,7 @@
   },
   {
     "slug": "trinidad-3",
-    "name": {
-      "es": "Good Vibes Estudio De Luxe Trinidad 3",
-      "en": "Good Vibes Deluxe Studio Trinidad 3",
-      "fr": "Good Vibes Studio De Luxe Trinidad 3",
-      "it": "Good Vibes Monolocale De Luxe Trinidad 3"
-    },
+    "name": "Good Vibes Estudio De Luxe Trinidad 3",
     "zone": "La Trinidad",
     "address": "Calle Trinidad 6, 2ºB",
     "guests": 2,
@@ -123,12 +108,7 @@
   },
   {
     "slug": "sunny-penthouse",
-    "name": {
-      "es": "Sunny Penthouse Centro Histórico",
-      "en": "Sunny Penthouse Old Town",
-      "fr": "Sunny Penthouse Centre Historique",
-      "it": "Sunny Penthouse Centro Storico"
-    },
+    "name": "Sunny Penthouse Centro Histórico",
     "zone": "Centro Histórico",
     "address": "Plaza Arriola 3, 5ºC",
     "guests": 2,
@@ -166,12 +146,7 @@
   },
   {
     "slug": "family-friends-atarazanas",
-    "name": {
-      "es": "Family & Friends Atarazanas Market",
-      "en": "Family & Friends Atarazanas Market",
-      "fr": "Family & Friends Atarazanas Market",
-      "it": "Family & Friends Atarazanas Market"
-    },
+    "name": "Family & Friends Atarazanas Market",
     "zone": "Centro Histórico",
     "address": "Calle Panaderos 10, 5ºB",
     "guests": 5,
@@ -205,12 +180,7 @@
   },
   {
     "slug": "downtown-jinetes",
-    "name": {
-      "es": "Downtown Jinetes Deluxe con piscina y parking gratis",
-      "en": "Downtown Jinetes Deluxe with pool & free parking",
-      "fr": "Downtown Jinetes Deluxe avec piscine et parking gratuit",
-      "it": "Downtown Jinetes Deluxe con piscina e parcheggio gratis"
-    },
+    "name": "Downtown Jinetes Deluxe with pool & free parking",
     "zone": "Centro Histórico",
     "address": "Calle Jinetes 12, Bajo",
     "guests": 4,

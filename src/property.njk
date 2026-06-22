@@ -8,7 +8,7 @@ permalink: "{{ pp.permalink }}"
 layout: layouts/base.njk
 eleventyComputed:
   lang: "{{ pp.lang }}"
-  pageTitle: "{{ pp.prop.name[pp.lang] }} · {{ pp.prop.zone }} — Good Vibes Apartments"
+  pageTitle: "{{ pp.prop.name }} · {{ pp.prop.zone }} — Good Vibes Apartments"
   pageDesc: "{{ pp.prop.description[pp.lang] }}"
   ogImage: "{{ site.url }}{{ pp.prop.photos[0].src }}"
   altUrls:
@@ -26,11 +26,11 @@ eleventyComputed:
     <a class="back-link" href="{{ langmeta[lang].home | url }}#apartments">{{ t.property.backToList }}</a>
 
     <header class="property-header">
-      <h1>{{ prop.name[lang] }}</h1>
+      <h1>{{ prop.name }}</h1>
       <p class="card-zone">📍 {{ prop.address or prop.zone }}, {{ site.city }} · {{ t.types[prop.type] }}</p>
     </header>
 
-    <div class="gallery" aria-label="{{ prop.name[lang] }}">
+    <div class="gallery" aria-label="{{ prop.name }}">
       {%- for photo in prop.photos %}
       <figure class="gallery-item">
         <img src="{{ photo.src | url }}" alt="{{ photo.alt }}" {{ 'loading="lazy"' | safe if not loop.first }} width="1200" height="800">
@@ -88,7 +88,7 @@ eleventyComputed:
 {{ {
   "@context": "https://schema.org",
   "@type": "Accommodation",
-  "name": prop.name[lang],
+  "name": prop.name,
   "description": prop.description[lang],
   "url": site.url + page.url,
   "image": site.url + prop.photos[0].src,
