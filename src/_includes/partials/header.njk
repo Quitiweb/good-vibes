@@ -9,7 +9,8 @@
       <a href="{{ langmeta[lang].home | url }}#apartments">{{ t.nav.apartments }}</a>
       <a href="{{ langmeta[lang].home | url }}#owners">{{ t.nav.owners }}</a>
       <a href="{{ langmeta[lang].home | url }}#contact">{{ t.nav.contact }}</a>
-      <a href="{{ '/blog/' | url }}">{{ t.nav.blog }}</a>
+      {% set blogLink = (lang == 'es' ? '/blog/' : '/' + lang + '/blog/') %}
+      <a href="{{ blogLink | url }}">{{ t.nav.blog }}</a>
     </nav>
     <div class="lang-switcher">
       {%- for l in site.langs %}
