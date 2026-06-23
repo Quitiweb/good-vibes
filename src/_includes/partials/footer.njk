@@ -9,6 +9,12 @@
       <a href="{{ langmeta[lang].home | url }}#apartments">{{ t.nav.apartments }}</a>
       <a href="{{ langmeta[lang].home | url }}#owners">{{ t.nav.owners }}</a>
       <a href="{{ langmeta[lang].home | url }}#contact">{{ t.nav.contact }}</a>
+      {% if lang == 'es' %}
+        {% set blogLink = '/blog/' %}
+      {% else %}
+        {% set blogLink = '/' + lang + '/blog/' %}
+      {% endif %}
+      <a href="{{ blogLink | url }}">{{ t.footer.blog }}</a>
 
     </nav>
     <div class="footer-contact">

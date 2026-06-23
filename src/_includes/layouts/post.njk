@@ -1,9 +1,20 @@
 ---
 layout: layouts/base.njk
+eleventyComputed:
+  altUrls:
+    es: "/blog/"
+    en: "/en/blog/"
+    fr: "/fr/blog/"
+    it: "/it/blog/"
 ---
 {% set t = i18n[lang] %}
+{% if lang == 'es' %}
+  {% set blogBack = '/blog/' %}
+{% else %}
+  {% set blogBack = '/' + lang + '/blog/' %}
+{% endif %}
 <article class="post container">
-  <a class="back-link" href="{{ langmeta[lang].home | url }}">{{ t.blog.back }}</a>
+  <a class="back-link" href="{{ blogBack | url }}">{{ t.blog.back }}</a>
   <h1>{{ title }}</h1>
   <p class="blog-meta">{{ page.date | readableDate(lang) }} · Good Vibes Apartments</p>
   {{ content | safe }}
