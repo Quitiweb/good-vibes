@@ -13,7 +13,12 @@
     "priceFrom": 60,
     "lat": 36.7252,
     "lng": -4.4298,
-    "features": ["wifi", "ac", "kitchen", "tv"],
+    "features": [
+      "wifi",
+      "ac",
+      "kitchen",
+      "tv"
+    ],
     "description": {
       "es": "Estudio de lujo recién reformado en el barrio de la Trinidad, a un paseo del centro de Málaga. Espacio diáfano con cama king size, sofá cama y cocina totalmente equipada. Perfecto para parejas o una familia pequeña que quiere estar cerca de todo sin renunciar a la calma de un barrio con solera.",
       "en": "A newly renovated deluxe studio in the Trinidad neighbourhood, a short walk from the centre of Málaga. One open space with a king-size bed, a sofa bed and a fully equipped kitchen. Perfect for couples or a small family who want to be close to everything while keeping the calm of a traditional barrio.",
@@ -21,11 +26,26 @@
       "it": "Monolocale di lusso appena ristrutturato nel quartiere della Trinidad, a due passi dal centro di Málaga. Un unico ambiente con letto king size, divano letto e cucina completamente attrezzata. Perfetto per coppie o una piccola famiglia che vuole essere vicino a tutto senza rinunciare alla calma di un quartiere autentico."
     },
     "photos": [
-      { "src": "/assets/img/apartamentos/trinidad-1/01.jpg", "alt": "Estudio con cama, salón y cocina" },
-      { "src": "/assets/img/apartamentos/trinidad-1/02.jpg", "alt": "Salón con sofá cama" },
-      { "src": "/assets/img/apartamentos/trinidad-1/03.jpg", "alt": "Cocina totalmente equipada" },
-      { "src": "/assets/img/apartamentos/trinidad-1/04.jpg", "alt": "Cama king size" },
-      { "src": "/assets/img/apartamentos/trinidad-1/05.jpg", "alt": "Baño con bañera" }
+      {
+        "src": "/assets/img/apartamentos/trinidad-1/01.jpg",
+        "alt": "Estudio con cama, salón y cocina"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-1/02.jpg",
+        "alt": "Salón con sofá cama"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-1/03.jpg",
+        "alt": "Cocina totalmente equipada"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-1/04.jpg",
+        "alt": "Cama king size"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-1/05.jpg",
+        "alt": "Baño con bañera"
+      }
     ],
     "airbnb": "https://www.airbnb.es/rooms/21652845",
     "booking": "https://www.booking.com/hotel/es/good-vibes-estudio-deluxe-trinidad-1.es.html",
@@ -46,9 +66,14 @@
     "sqm": 40,
     "type": "studio",
     "priceFrom": 60,
-    "lat": 36.7250,
+    "lat": 36.725,
     "lng": -4.4292,
-    "features": ["wifi", "ac", "kitchen", "tv"],
+    "features": [
+      "wifi",
+      "ac",
+      "kitchen",
+      "tv"
+    ],
     "description": {
       "es": "Estudio de lujo luminoso en plena Trinidad, uno de los barrios más auténticos de Málaga. Cama king size, cocina equipada y un diseño cuidado en blanco y fucsia. Ideal para una escapada en pareja: el centro histórico queda a unos 10 minutos andando cruzando el río.",
       "en": "A bright deluxe studio in the heart of Trinidad, one of the most authentic neighbourhoods in Málaga. King-size bed, equipped kitchen and a carefully styled white-and-fuchsia design. Ideal for a couple's getaway: the old town is about a 10-minute walk away across the river.",
@@ -56,13 +81,34 @@
       "it": "Monolocale di lusso luminoso nel cuore della Trinidad, uno dei quartieri più autentici di Málaga. Letto king size, cucina attrezzata e un design curato in bianco e fucsia. Ideale per una fuga di coppia: il centro storico è a circa 10 minuti a piedi attraversando il fiume."
     },
     "photos": [
-      { "src": "/assets/img/apartamentos/trinidad-2/07.jpg", "alt": "Estudio con cama, salón y cocina" },
-      { "src": "/assets/img/apartamentos/trinidad-2/01.jpg", "alt": "Salón con sofá y zona de comedor" },
-      { "src": "/assets/img/apartamentos/trinidad-2/04.jpg", "alt": "Cocina y dormitorio" },
-      { "src": "/assets/img/apartamentos/trinidad-2/03.jpg", "alt": "Cama king size y salón" },
-      { "src": "/assets/img/apartamentos/trinidad-2/02.jpg", "alt": "Cocina con encimera azul" },
-      { "src": "/assets/img/apartamentos/trinidad-2/05.jpg", "alt": "Detalle de la cama" },
-      { "src": "/assets/img/apartamentos/trinidad-2/06.jpg", "alt": "Baño con bañera" }
+      {
+        "src": "/assets/img/apartamentos/trinidad-2/07.jpg",
+        "alt": "Estudio con cama, salón y cocina"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-2/01.jpg",
+        "alt": "Salón con sofá y zona de comedor"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-2/04.jpg",
+        "alt": "Cocina y dormitorio"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-2/03.jpg",
+        "alt": "Cama king size y salón"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-2/02.jpg",
+        "alt": "Cocina con encimera azul"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-2/05.jpg",
+        "alt": "Detalle de la cama"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-2/06.jpg",
+        "alt": "Baño con bañera"
+      }
     ],
     "airbnb": "https://www.airbnb.es/rooms/21660193",
     "booking": "https://www.booking.com/hotel/es/good-vibes-estudio-deluxe-trinidad-2.es.html",
@@ -85,7 +131,12 @@
     "priceFrom": 60,
     "lat": 36.7247,
     "lng": -4.4296,
-    "features": ["wifi", "ac", "kitchen", "tv"],
+    "features": [
+      "wifi",
+      "ac",
+      "kitchen",
+      "tv"
+    ],
     "description": {
       "es": "El más acogedor de nuestros estudios en la Trinidad, con un encantador aire vintage y un rincón de dormitorio recogido. Cocina equipada, salón con sofá y mucha luz natural. A un paseo del centro de Málaga y del ambiente de barrio de toda la vida.",
       "en": "The cosiest of our Trinidad studios, with a charming vintage feel and a tucked-away sleeping corner. Equipped kitchen, a living area with a sofa and plenty of natural light. A short walk from the centre of Málaga and from real, everyday barrio life.",
@@ -93,11 +144,26 @@
       "it": "Il più accogliente dei nostri monolocali nella Trinidad, con un affascinante tocco vintage e un angolo notte raccolto. Cucina attrezzata, zona soggiorno con divano e tanta luce naturale. A due passi dal centro di Málaga e dalla vita di quartiere di sempre."
     },
     "photos": [
-      { "src": "/assets/img/apartamentos/trinidad-3/02.jpg", "alt": "Salón con sofá amarillo y cocina" },
-      { "src": "/assets/img/apartamentos/trinidad-3/01.jpg", "alt": "Sofá amarillo y rincón de estar" },
-      { "src": "/assets/img/apartamentos/trinidad-3/03.jpg", "alt": "Zona de comedor" },
-      { "src": "/assets/img/apartamentos/trinidad-3/04.jpg", "alt": "Cocina equipada" },
-      { "src": "/assets/img/apartamentos/trinidad-3/05.jpg", "alt": "Dormitorio con cama de matrimonio" }
+      {
+        "src": "/assets/img/apartamentos/trinidad-3/02.jpg",
+        "alt": "Salón con sofá amarillo y cocina"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-3/01.jpg",
+        "alt": "Sofá amarillo y rincón de estar"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-3/03.jpg",
+        "alt": "Zona de comedor"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-3/04.jpg",
+        "alt": "Cocina equipada"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-3/05.jpg",
+        "alt": "Dormitorio con cama de matrimonio"
+      }
     ],
     "airbnb": "https://www.airbnb.es/rooms/24845210",
     "booking": "https://www.booking.com/hotel/es/good-vibes-estudio-deluxe-trinidad-3.es.html",
@@ -120,7 +186,12 @@
     "priceFrom": 110,
     "lat": 36.7178,
     "lng": -4.4239,
-    "features": ["wifi", "ac", "kitchen", "terrace"],
+    "features": [
+      "wifi",
+      "ac",
+      "kitchen",
+      "terrace"
+    ],
     "description": {
       "es": "Ático con una terraza de 45 m² y vistas a los tejados y campanarios del centro de Málaga. Perfecto para una pareja: dormitorio independiente, cocina equipada y ese momento de vino al atardecer mirando la ciudad. A un paseo de la Alameda, el puerto y el Mercado de Atarazanas.",
       "en": "A penthouse with a 45 m² terrace and views over the rooftops and bell towers of central Málaga. Perfect for a couple: separate bedroom, equipped kitchen and that glass of wine at sunset over the city. A short walk from the Alameda, the port and the Atarazanas market.",
@@ -128,14 +199,38 @@
       "it": "Attico con terrazza di 45 m² e vista sui tetti e i campanili del centro di Málaga. Perfetto per una coppia: camera separata, cucina attrezzata e quel bicchiere di vino al tramonto sulla città. A due passi dall'Alameda, dal porto e dal mercato di Atarazanas."
     },
     "photos": [
-      { "src": "/assets/img/apartamentos/sunny-penthouse/01.jpg", "alt": "Terraza con vistas al centro de Málaga" },
-      { "src": "/assets/img/apartamentos/sunny-penthouse/02.jpg", "alt": "Terraza con pérgola" },
-      { "src": "/assets/img/apartamentos/sunny-penthouse/03.jpg", "alt": "Terraza con tumbonas" },
-      { "src": "/assets/img/apartamentos/sunny-penthouse/04.jpg", "alt": "Dormitorio" },
-      { "src": "/assets/img/apartamentos/sunny-penthouse/05.jpg", "alt": "Salón" },
-      { "src": "/assets/img/apartamentos/sunny-penthouse/06.jpg", "alt": "Cocina equipada" },
-      { "src": "/assets/img/apartamentos/sunny-penthouse/07.jpg", "alt": "Baño" },
-      { "src": "/assets/img/apartamentos/sunny-penthouse/08.jpg", "alt": "Salón y cocina" }
+      {
+        "src": "/assets/img/apartamentos/sunny-penthouse/01.jpg",
+        "alt": "Terraza con vistas al centro de Málaga"
+      },
+      {
+        "src": "/assets/img/apartamentos/sunny-penthouse/02.jpg",
+        "alt": "Terraza con pérgola"
+      },
+      {
+        "src": "/assets/img/apartamentos/sunny-penthouse/03.jpg",
+        "alt": "Terraza con tumbonas"
+      },
+      {
+        "src": "/assets/img/apartamentos/sunny-penthouse/04.jpg",
+        "alt": "Dormitorio"
+      },
+      {
+        "src": "/assets/img/apartamentos/sunny-penthouse/05.jpg",
+        "alt": "Salón"
+      },
+      {
+        "src": "/assets/img/apartamentos/sunny-penthouse/06.jpg",
+        "alt": "Cocina equipada"
+      },
+      {
+        "src": "/assets/img/apartamentos/sunny-penthouse/07.jpg",
+        "alt": "Baño"
+      },
+      {
+        "src": "/assets/img/apartamentos/sunny-penthouse/08.jpg",
+        "alt": "Salón y cocina"
+      }
     ],
     "airbnb": "https://www.airbnb.es/rooms/24059916",
     "booking": "",
@@ -158,7 +253,11 @@
     "priceFrom": 129,
     "lat": 36.7235,
     "lng": -4.4214,
-    "features": ["wifi", "ac", "kitchen"],
+    "features": [
+      "wifi",
+      "ac",
+      "kitchen"
+    ],
     "description": {
       "es": "Apartamento amplio y luminoso para hasta 5 personas, a un paso del Mercado de Atarazanas y del centro histórico. Dos dormitorios (cama de matrimonio y litera), salón cómodo y cocina equipada. Ideal para familias o grupos de amigos que quieren vivir Málaga a pie.",
       "en": "A spacious, bright apartment for up to 5 people, steps from the Atarazanas market and the old town. Two bedrooms (a double and a bunk bed), a comfy living room and an equipped kitchen. Ideal for families or groups of friends who want to explore Málaga on foot.",
@@ -166,10 +265,22 @@
       "it": "Appartamento ampio e luminoso fino a 5 persone, a due passi dal mercato di Atarazanas e dal centro storico. Due camere (un letto matrimoniale e un letto a castello), un soggiorno comodo e una cucina attrezzata. Ideale per famiglie o gruppi di amici che vogliono vivere Málaga a piedi."
     },
     "photos": [
-      { "src": "/assets/img/apartamentos/family-friends-atarazanas/01.jpg", "alt": "Salón luminoso" },
-      { "src": "/assets/img/apartamentos/family-friends-atarazanas/05.jpg", "alt": "Dormitorio" },
-      { "src": "/assets/img/apartamentos/family-friends-atarazanas/03.jpg", "alt": "Salón y comedor" },
-      { "src": "/assets/img/apartamentos/family-friends-atarazanas/02.jpg", "alt": "Comedor" }
+      {
+        "src": "/assets/img/apartamentos/family-friends-atarazanas/01.jpg",
+        "alt": "Salón luminoso"
+      },
+      {
+        "src": "/assets/img/apartamentos/family-friends-atarazanas/05.jpg",
+        "alt": "Dormitorio"
+      },
+      {
+        "src": "/assets/img/apartamentos/family-friends-atarazanas/03.jpg",
+        "alt": "Salón y comedor"
+      },
+      {
+        "src": "/assets/img/apartamentos/family-friends-atarazanas/02.jpg",
+        "alt": "Comedor"
+      }
     ],
     "airbnb": "https://www.airbnb.es/rooms/1259423635279233641",
     "booking": "",
@@ -190,9 +301,16 @@
     "sqm": 75,
     "type": "apartment",
     "priceFrom": 149,
-    "lat": 36.7240,
+    "lat": 36.724,
     "lng": -4.4218,
-    "features": ["wifi", "ac", "kitchen", "pool", "parking", "terrace"],
+    "features": [
+      "wifi",
+      "ac",
+      "kitchen",
+      "pool",
+      "parking",
+      "terrace"
+    ],
     "description": {
       "es": "Lo difícil en el centro de Málaga: piscina en la azotea y parking gratis incluido. Apartamento de 2 dormitorios y 2 baños con patio privado, a un paseo de la Plaza de la Merced y la calle Larios. Para familias o grupos que quieren comodidad, chapuzón y dejar el coche sin preocupaciones.",
       "en": "The hard-to-find combo in central Málaga: a rooftop pool and free parking included. A 2-bedroom, 2-bathroom apartment with a private patio, a short walk from Plaza de la Merced and Calle Larios. For families or groups who want comfort, a dip in the pool and somewhere easy to leave the car.",
@@ -200,17 +318,911 @@
       "it": "L'introvabile nel centro di Málaga: piscina sul tetto e parcheggio gratuito incluso. Appartamento con 2 camere e 2 bagni con patio privato, a due passi da Plaza de la Merced e Calle Larios. Per famiglie o gruppi che vogliono comodità, un tuffo in piscina e dove lasciare l'auto senza pensieri."
     },
     "photos": [
-      { "src": "/assets/img/apartamentos/downtown-jinetes/01.jpg", "alt": "Dormitorio con salida al patio" },
-      { "src": "/assets/img/apartamentos/downtown-jinetes/07.jpg", "alt": "Piscina en la azotea" },
-      { "src": "/assets/img/apartamentos/downtown-jinetes/06.jpg", "alt": "Patio privado" },
-      { "src": "/assets/img/apartamentos/downtown-jinetes/02.jpg", "alt": "Piscina comunitaria" },
-      { "src": "/assets/img/apartamentos/downtown-jinetes/04.jpg", "alt": "Baño" }
+      {
+        "src": "/assets/img/apartamentos/downtown-jinetes/01.jpg",
+        "alt": "Dormitorio con salida al patio"
+      },
+      {
+        "src": "/assets/img/apartamentos/downtown-jinetes/07.jpg",
+        "alt": "Piscina en la azotea"
+      },
+      {
+        "src": "/assets/img/apartamentos/downtown-jinetes/06.jpg",
+        "alt": "Patio privado"
+      },
+      {
+        "src": "/assets/img/apartamentos/downtown-jinetes/02.jpg",
+        "alt": "Piscina comunitaria"
+      },
+      {
+        "src": "/assets/img/apartamentos/downtown-jinetes/04.jpg",
+        "alt": "Baño"
+      }
     ],
     "airbnb": "https://www.airbnb.es/rooms/1026642923106463065",
     "booking": "https://www.booking.com/hotel/es/downtown-jinetes-deluxe-with-pool-amp-free-parking.es.html",
     "ical": {
       "airbnb": "https://www.airbnb.es/calendar/ical/1026642923106463065.ics?t=9346b28fecf1406dbe6dd9d9b2d6318c",
       "booking": "https://ical.booking.com/v1/export?t=37f8b2cb-d918-4089-a55e-f4d894252135"
+    }
+  },
+  {
+    "slug": "a-wonderful-place",
+    "name": "A Wonderful Place To Stay",
+    "zone": "Centro Histórico",
+    "address": "Calle Nuño Gómez 10, 1ºA",
+    "guests": 3,
+    "bedrooms": 1,
+    "beds": 2,
+    "baths": 1,
+    "sqm": 45,
+    "type": "apartment",
+    "priceFrom": 65,
+    "lat": 36.7255,
+    "lng": -4.4205,
+    "features": [
+      "wifi",
+      "ac",
+      "kitchen"
+    ],
+    "description": {
+      "es": "Apartamento luminoso de un dormitorio con sofá cama, en pleno centro de Málaga. Cocina equipada, aire acondicionado y todo a mano para descubrir la ciudad a pie. Ideal para parejas o familias pequeñas.",
+      "en": "A bright one-bedroom apartment with a sofa bed, right in the centre of Málaga. Equipped kitchen, air conditioning and everything within walking distance. Ideal for couples or small families.",
+      "fr": "Appartement lumineux d'une chambre avec canapé-lit, en plein centre de Málaga. Cuisine équipée, climatisation et tout à portée de pied. Idéal pour les couples ou petites familles.",
+      "it": "Appartamento luminoso con una camera e divano letto, in pieno centro di Málaga. Cucina attrezzata, aria condizionata e tutto a portata di passo. Ideale per coppie o piccole famiglie."
+    },
+    "photos": [
+      {
+        "src": "/assets/img/apartamentos/a-wonderful-place/01.jpg",
+        "alt": "A Wonderful Place To Stay"
+      },
+      {
+        "src": "/assets/img/apartamentos/a-wonderful-place/02.jpg",
+        "alt": "A Wonderful Place To Stay — foto 2"
+      },
+      {
+        "src": "/assets/img/apartamentos/a-wonderful-place/03.jpg",
+        "alt": "A Wonderful Place To Stay — foto 3"
+      },
+      {
+        "src": "/assets/img/apartamentos/a-wonderful-place/04.jpg",
+        "alt": "A Wonderful Place To Stay — foto 4"
+      },
+      {
+        "src": "/assets/img/apartamentos/a-wonderful-place/05.jpg",
+        "alt": "A Wonderful Place To Stay — foto 5"
+      },
+      {
+        "src": "/assets/img/apartamentos/a-wonderful-place/06.jpg",
+        "alt": "A Wonderful Place To Stay — foto 6"
+      }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/987401270002409097",
+    "booking": "",
+    "ical": {
+      "airbnb": "https://www.airbnb.es/calendar/ical/987401270002409097.ics?t=ada869e5077b4d6eb76199d47ed695a7",
+      "booking": ""
+    }
+  },
+  {
+    "slug": "brand-new-penthouse",
+    "name": "Brand new Penthouse",
+    "zone": "Centro Histórico",
+    "address": "Calle Feijoo 14, Ático B",
+    "guests": 5,
+    "bedrooms": 2,
+    "beds": 3,
+    "baths": 1,
+    "sqm": 60,
+    "type": "penthouse",
+    "priceFrom": 79,
+    "lat": 36.7268,
+    "lng": -4.4255,
+    "features": [
+      "wifi",
+      "ac",
+      "kitchen",
+      "parking"
+    ],
+    "description": {
+      "es": "Ático a estrenar con dos dormitorios y plaza de parking para coches pequeños, toda una joya en el centro de Málaga. Cocina equipada y mucha luz. Perfecto para familias que llegan en coche.",
+      "en": "A brand-new penthouse with two bedrooms and a parking space for small cars, a real find in central Málaga. Equipped kitchen and lots of light. Perfect for families arriving by car.",
+      "fr": "Attique neuf avec deux chambres et une place de parking pour petites voitures, une perle au centre de Málaga. Cuisine équipée et beaucoup de lumière. Parfait pour les familles en voiture.",
+      "it": "Attico nuovo con due camere e posto auto per auto piccole, una vera chicca nel centro di Málaga. Cucina attrezzata e tanta luce. Perfetto per famiglie che arrivano in auto."
+    },
+    "photos": [
+      {
+        "src": "/assets/img/apartamentos/brand-new-penthouse/01.jpg",
+        "alt": "Brand new Penthouse"
+      },
+      {
+        "src": "/assets/img/apartamentos/brand-new-penthouse/02.jpg",
+        "alt": "Brand new Penthouse — foto 2"
+      },
+      {
+        "src": "/assets/img/apartamentos/brand-new-penthouse/03.jpg",
+        "alt": "Brand new Penthouse — foto 3"
+      },
+      {
+        "src": "/assets/img/apartamentos/brand-new-penthouse/04.jpg",
+        "alt": "Brand new Penthouse — foto 4"
+      },
+      {
+        "src": "/assets/img/apartamentos/brand-new-penthouse/05.jpg",
+        "alt": "Brand new Penthouse — foto 5"
+      },
+      {
+        "src": "/assets/img/apartamentos/brand-new-penthouse/06.jpg",
+        "alt": "Brand new Penthouse — foto 6"
+      }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/1226879664080834315",
+    "booking": "",
+    "ical": {
+      "airbnb": "https://www.airbnb.es/calendar/ical/1226879664080834315.ics?t=70359fd4c49644d3a5c76c7cf3e3c4b1",
+      "booking": ""
+    }
+  },
+  {
+    "slug": "bright-cozy",
+    "name": "Bright & Cozy apartment",
+    "zone": "La Trinidad",
+    "address": "Calle Zamorano 70, 1ºB",
+    "guests": 3,
+    "bedrooms": 1,
+    "beds": 2,
+    "baths": 1,
+    "sqm": 45,
+    "type": "apartment",
+    "priceFrom": 69,
+    "lat": 36.7268,
+    "lng": -4.429,
+    "features": [
+      "wifi",
+      "ac",
+      "kitchen"
+    ],
+    "description": {
+      "es": "Apartamento cálido y luminoso en el auténtico barrio de la Trinidad, a un paseo del centro. Un dormitorio, sofá cama y cocina equipada. Para vivir Málaga lejos del bullicio pero cerca de todo.",
+      "en": "A warm, bright apartment in the authentic Trinidad neighbourhood, a short walk from the centre. One bedroom, a sofa bed and an equipped kitchen. To enjoy Málaga away from the bustle but close to everything.",
+      "fr": "Appartement chaleureux et lumineux dans l'authentique quartier de la Trinidad, à quelques pas du centre. Une chambre, canapé-lit et cuisine équipée. Pour vivre Málaga loin de l'agitation mais proche de tout.",
+      "it": "Appartamento caldo e luminoso nell'autentico quartiere della Trinidad, a due passi dal centro. Una camera, divano letto e cucina attrezzata. Per vivere Málaga lontano dal trambusto ma vicino a tutto."
+    },
+    "photos": [
+      {
+        "src": "/assets/img/apartamentos/bright-cozy/01.jpg",
+        "alt": "Bright & Cozy apartment"
+      },
+      {
+        "src": "/assets/img/apartamentos/bright-cozy/02.jpg",
+        "alt": "Bright & Cozy apartment — foto 2"
+      },
+      {
+        "src": "/assets/img/apartamentos/bright-cozy/03.jpg",
+        "alt": "Bright & Cozy apartment — foto 3"
+      },
+      {
+        "src": "/assets/img/apartamentos/bright-cozy/04.jpg",
+        "alt": "Bright & Cozy apartment — foto 4"
+      },
+      {
+        "src": "/assets/img/apartamentos/bright-cozy/05.jpg",
+        "alt": "Bright & Cozy apartment — foto 5"
+      },
+      {
+        "src": "/assets/img/apartamentos/bright-cozy/06.jpg",
+        "alt": "Bright & Cozy apartment — foto 6"
+      }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/1149117748677012269",
+    "booking": "",
+    "ical": {
+      "airbnb": "https://www.airbnb.es/calendar/ical/1149117748677012269.ics?t=e2bc5a2abe3b4ab79b574fc0a1df0024",
+      "booking": ""
+    }
+  },
+  {
+    "slug": "somera-9",
+    "name": "Good Vibes Somera (media estancia)",
+    "zone": "Centro Histórico",
+    "address": "Calle Somera 9, 2ºC",
+    "guests": 4,
+    "bedrooms": 2,
+    "beds": 2,
+    "baths": 1,
+    "sqm": 60,
+    "type": "apartment",
+    "lat": 36.7252,
+    "lng": -4.4197,
+    "features": [
+      "wifi",
+      "ac",
+      "kitchen",
+      "workspace"
+    ],
+    "description": {
+      "es": "Apartamento premium de dos habitaciones pensado para estancias de media temporada y nómadas digitales. Wifi, aire acondicionado, cocina totalmente equipada y zona de trabajo. Consúltanos disponibilidad y tarifas.",
+      "en": "A premium two-bedroom apartment designed for mid-term stays and digital nomads. Wifi, air conditioning, a fully equipped kitchen and a workspace. Ask us about availability and rates.",
+      "fr": "Appartement premium de deux chambres pensé pour les séjours de moyenne durée et les nomades numériques. Wifi, climatisation, cuisine entièrement équipée et espace de travail. Demandez-nous disponibilités et tarifs.",
+      "it": "Appartamento premium con due camere pensato per soggiorni di media durata e nomadi digitali. Wifi, aria condizionata, cucina completamente attrezzata e zona di lavoro. Chiedici disponibilità e tariffe."
+    },
+    "photos": [
+      {
+        "src": "/assets/img/apartamentos/somera-9/01.jpg",
+        "alt": "Good Vibes Somera (media estancia)"
+      },
+      {
+        "src": "/assets/img/apartamentos/somera-9/02.jpg",
+        "alt": "Good Vibes Somera (media estancia) — foto 2"
+      },
+      {
+        "src": "/assets/img/apartamentos/somera-9/03.jpg",
+        "alt": "Good Vibes Somera (media estancia) — foto 3"
+      },
+      {
+        "src": "/assets/img/apartamentos/somera-9/04.jpg",
+        "alt": "Good Vibes Somera (media estancia) — foto 4"
+      },
+      {
+        "src": "/assets/img/apartamentos/somera-9/05.jpg",
+        "alt": "Good Vibes Somera (media estancia) — foto 5"
+      },
+      {
+        "src": "/assets/img/apartamentos/somera-9/06.jpg",
+        "alt": "Good Vibes Somera (media estancia) — foto 6"
+      }
+    ],
+    "airbnb": "",
+    "booking": "",
+    "ical": {
+      "airbnb": "",
+      "booking": ""
+    }
+  },
+  {
+    "slug": "downtown-jinetes-2",
+    "name": "Downtown Jinetes Deluxe 2 with pool & free parking",
+    "zone": "Centro Histórico",
+    "address": "Calle Jinetes 14, esc. 4 Bajo",
+    "guests": 4,
+    "bedrooms": 2,
+    "beds": 3,
+    "baths": 2,
+    "sqm": 75,
+    "type": "apartment",
+    "priceFrom": 149,
+    "lat": 36.7242,
+    "lng": -4.4221,
+    "features": [
+      "wifi",
+      "ac",
+      "kitchen",
+      "pool",
+      "parking",
+      "terrace"
+    ],
+    "description": {
+      "es": "En pleno centro con lo más difícil de encontrar: piscina comunitaria y parking gratis incluido. Dos dormitorios, dos baños y patio privado. Para familias o grupos que quieren comodidad y un chapuzón.",
+      "en": "In the heart of the centre with the hardest combo to find: a shared pool and free parking included. Two bedrooms, two bathrooms and a private patio. For families or groups who want comfort and a dip in the pool.",
+      "fr": "En plein centre avec l'introuvable : piscine commune et parking gratuit inclus. Deux chambres, deux salles de bain et patio privé. Pour familles ou groupes qui veulent confort et baignade.",
+      "it": "In pieno centro con l'introvabile: piscina condominiale e parcheggio gratuito incluso. Due camere, due bagni e patio privato. Per famiglie o gruppi che vogliono comodità e un tuffo in piscina."
+    },
+    "photos": [
+      {
+        "src": "/assets/img/apartamentos/downtown-jinetes-2/01.jpg",
+        "alt": "Downtown Jinetes Deluxe 2 with pool & free parking"
+      },
+      {
+        "src": "/assets/img/apartamentos/downtown-jinetes-2/02.jpg",
+        "alt": "Downtown Jinetes Deluxe 2 with pool & free parking — foto 2"
+      },
+      {
+        "src": "/assets/img/apartamentos/downtown-jinetes-2/03.jpg",
+        "alt": "Downtown Jinetes Deluxe 2 with pool & free parking — foto 3"
+      },
+      {
+        "src": "/assets/img/apartamentos/downtown-jinetes-2/04.jpg",
+        "alt": "Downtown Jinetes Deluxe 2 with pool & free parking — foto 4"
+      },
+      {
+        "src": "/assets/img/apartamentos/downtown-jinetes-2/05.jpg",
+        "alt": "Downtown Jinetes Deluxe 2 with pool & free parking — foto 5"
+      },
+      {
+        "src": "/assets/img/apartamentos/downtown-jinetes-2/06.jpg",
+        "alt": "Downtown Jinetes Deluxe 2 with pool & free parking — foto 6"
+      }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/1044929752886752345",
+    "booking": "",
+    "ical": {
+      "airbnb": "",
+      "booking": ""
+    }
+  },
+  {
+    "slug": "brand-new-apartment",
+    "name": "Good Vibes Brand New Apartment",
+    "zone": "La Trinidad",
+    "address": "Calle Carril 39, 1ºF",
+    "guests": 3,
+    "bedrooms": 1,
+    "beds": 2,
+    "baths": 1,
+    "sqm": 45,
+    "type": "apartment",
+    "priceFrom": 65,
+    "lat": 36.7258,
+    "lng": -4.427,
+    "features": [
+      "wifi",
+      "ac",
+      "kitchen"
+    ],
+    "description": {
+      "es": "Apartamento a estrenar en la Trinidad, luminoso y muy bien comunicado con el centro de Málaga. Un dormitorio, sofá cama y cocina equipada. Sencillo, cómodo y con buenas vibras.",
+      "en": "A brand-new apartment in Trinidad, bright and very well connected to the centre of Málaga. One bedroom, a sofa bed and an equipped kitchen. Simple, comfortable and full of good vibes.",
+      "fr": "Appartement neuf dans la Trinidad, lumineux et très bien relié au centre de Málaga. Une chambre, canapé-lit et cuisine équipée. Simple, confortable et plein de bonnes ondes.",
+      "it": "Appartamento nuovo nella Trinidad, luminoso e molto ben collegato al centro di Málaga. Una camera, divano letto e cucina attrezzata. Semplice, comodo e pieno di buone vibrazioni."
+    },
+    "photos": [
+      {
+        "src": "/assets/img/apartamentos/brand-new-apartment/01.jpg",
+        "alt": "Good Vibes Brand New Apartment"
+      },
+      {
+        "src": "/assets/img/apartamentos/brand-new-apartment/02.jpg",
+        "alt": "Good Vibes Brand New Apartment — foto 2"
+      },
+      {
+        "src": "/assets/img/apartamentos/brand-new-apartment/03.jpg",
+        "alt": "Good Vibes Brand New Apartment — foto 3"
+      },
+      {
+        "src": "/assets/img/apartamentos/brand-new-apartment/04.jpg",
+        "alt": "Good Vibes Brand New Apartment — foto 4"
+      },
+      {
+        "src": "/assets/img/apartamentos/brand-new-apartment/05.jpg",
+        "alt": "Good Vibes Brand New Apartment — foto 5"
+      },
+      {
+        "src": "/assets/img/apartamentos/brand-new-apartment/06.jpg",
+        "alt": "Good Vibes Brand New Apartment — foto 6"
+      }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/27191345",
+    "booking": "https://www.booking.com/hotel/es/good-vibes-brand-new-apartment.es.html",
+    "ical": {
+      "airbnb": "https://www.airbnb.es/calendar/ical/27191345.ics?t=d8ef108338d54977a635a3f7fed45419",
+      "booking": "https://ical.booking.com/v1/export?t=b04f8e89-3fe8-44d2-a8ee-149a897054b8"
+    }
+  },
+  {
+    "slug": "trinidad-4",
+    "name": "Good Vibes Apartment De Luxe Trinidad 4",
+    "zone": "La Trinidad",
+    "address": "Calle Trinidad 6, 2ºD",
+    "guests": 4,
+    "bedrooms": 2,
+    "beds": 2,
+    "baths": 1,
+    "sqm": 70,
+    "type": "apartment",
+    "priceFrom": 85,
+    "lat": 36.72515,
+    "lng": -4.42965,
+    "features": [
+      "wifi",
+      "ac",
+      "kitchen"
+    ],
+    "description": {
+      "es": "Apartamento amplio de dos dormitorios (ambos con cama de matrimonio) en Calle Trinidad. 70 m² para familias o grupos que quieren espacio y estar a un paseo del centro histórico.",
+      "en": "A spacious two-bedroom apartment (both with double beds) on Calle Trinidad. 70 m² for families or groups who want space and a short walk to the old town.",
+      "fr": "Appartement spacieux de deux chambres (toutes deux avec lit double) sur la Calle Trinidad. 70 m² pour familles ou groupes qui veulent de l'espace à quelques pas du centre historique.",
+      "it": "Appartamento ampio con due camere (entrambe con letto matrimoniale) in Calle Trinidad. 70 m² per famiglie o gruppi che vogliono spazio e il centro storico a due passi."
+    },
+    "photos": [
+      {
+        "src": "/assets/img/apartamentos/trinidad-4/01.jpg",
+        "alt": "Good Vibes Apartment De Luxe Trinidad 4"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-4/02.jpg",
+        "alt": "Good Vibes Apartment De Luxe Trinidad 4 — foto 2"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-4/03.jpg",
+        "alt": "Good Vibes Apartment De Luxe Trinidad 4 — foto 3"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-4/04.jpg",
+        "alt": "Good Vibes Apartment De Luxe Trinidad 4 — foto 4"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-4/05.jpg",
+        "alt": "Good Vibes Apartment De Luxe Trinidad 4 — foto 5"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-4/06.jpg",
+        "alt": "Good Vibes Apartment De Luxe Trinidad 4 — foto 6"
+      }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/26807714",
+    "booking": "",
+    "ical": {
+      "airbnb": "https://www.airbnb.es/calendar/ical/26807714.ics?t=a70e671a851f4398afc3581f59037016",
+      "booking": ""
+    }
+  },
+  {
+    "slug": "trinidad-5",
+    "name": "Good Vibes Apartment De Luxe Trinidad 5",
+    "zone": "La Trinidad",
+    "address": "Calle Trinidad 6, 1ºC",
+    "guests": 4,
+    "bedrooms": 3,
+    "beds": 3,
+    "baths": 1,
+    "sqm": 70,
+    "type": "apartment",
+    "priceFrom": 90,
+    "lat": 36.72485,
+    "lng": -4.42945,
+    "features": [
+      "wifi",
+      "ac",
+      "kitchen",
+      "terrace"
+    ],
+    "description": {
+      "es": "El más espacioso de nuestros Trinidad: tres dormitorios, patio y terraza. Ideal para familias o grupos grandes que quieren repartirse a gusto y disfrutar del aire libre en pleno barrio.",
+      "en": "The most spacious of our Trinidad apartments: three bedrooms, a patio and a terrace. Ideal for families or larger groups who want room to spread out and some outdoor space in the heart of the barrio.",
+      "fr": "Le plus spacieux de nos Trinidad : trois chambres, un patio et une terrasse. Idéal pour familles ou grands groupes qui veulent de la place et de l'extérieur en plein quartier.",
+      "it": "Il più spazioso dei nostri Trinidad: tre camere, patio e terrazza. Ideale per famiglie o gruppi numerosi che vogliono spazio e un po' di aria aperta nel cuore del quartiere."
+    },
+    "photos": [
+      {
+        "src": "/assets/img/apartamentos/trinidad-5/01.jpg",
+        "alt": "Good Vibes Apartment De Luxe Trinidad 5"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-5/02.jpg",
+        "alt": "Good Vibes Apartment De Luxe Trinidad 5 — foto 2"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-5/03.jpg",
+        "alt": "Good Vibes Apartment De Luxe Trinidad 5 — foto 3"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-5/04.jpg",
+        "alt": "Good Vibes Apartment De Luxe Trinidad 5 — foto 4"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-5/05.jpg",
+        "alt": "Good Vibes Apartment De Luxe Trinidad 5 — foto 5"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-5/06.jpg",
+        "alt": "Good Vibes Apartment De Luxe Trinidad 5 — foto 6"
+      }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/33739175",
+    "booking": "",
+    "ical": {
+      "airbnb": "https://www.airbnb.es/calendar/ical/33739175.ics?t=121ed4123e8e483fbd3818bc9097f838",
+      "booking": ""
+    }
+  },
+  {
+    "slug": "trinidad-6",
+    "name": "Good Vibes Apartment De Luxe Trinidad 6",
+    "zone": "La Trinidad",
+    "address": "Calle Trinidad 6, 1ºB",
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 1,
+    "baths": 1,
+    "sqm": 45,
+    "type": "apartment",
+    "priceFrom": 70,
+    "lat": 36.72525,
+    "lng": -4.42935,
+    "features": [
+      "wifi",
+      "ac",
+      "kitchen"
+    ],
+    "description": {
+      "es": "Acogedor apartamento de un dormitorio en Calle Trinidad, recién reformado y a un paseo del centro. Cocina equipada y todo lo necesario para una escapada en pareja.",
+      "en": "A cosy one-bedroom apartment on Calle Trinidad, newly renovated and a short walk from the centre. Equipped kitchen and everything you need for a couple's getaway.",
+      "fr": "Appartement douillet d'une chambre sur la Calle Trinidad, rénové récemment et à quelques pas du centre. Cuisine équipée et tout le nécessaire pour une escapade en couple.",
+      "it": "Accogliente appartamento con una camera in Calle Trinidad, appena ristrutturato e a due passi dal centro. Cucina attrezzata e tutto il necessario per una fuga di coppia."
+    },
+    "photos": [
+      {
+        "src": "/assets/img/apartamentos/trinidad-6/01.jpg",
+        "alt": "Good Vibes Apartment De Luxe Trinidad 6"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-6/02.jpg",
+        "alt": "Good Vibes Apartment De Luxe Trinidad 6 — foto 2"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-6/03.jpg",
+        "alt": "Good Vibes Apartment De Luxe Trinidad 6 — foto 3"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-6/04.jpg",
+        "alt": "Good Vibes Apartment De Luxe Trinidad 6 — foto 4"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-6/05.jpg",
+        "alt": "Good Vibes Apartment De Luxe Trinidad 6 — foto 5"
+      },
+      {
+        "src": "/assets/img/apartamentos/trinidad-6/06.jpg",
+        "alt": "Good Vibes Apartment De Luxe Trinidad 6 — foto 6"
+      }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/862966756603948421",
+    "booking": "",
+    "ical": {
+      "airbnb": "https://www.airbnb.es/calendar/ical/862966756603948421.ics?t=8c892cf714284b678df67452c3f4c3da",
+      "booking": ""
+    }
+  },
+  {
+    "slug": "cutest-apartment",
+    "name": "Just the Cutest Apartment in Town",
+    "zone": "Centro Histórico",
+    "address": "Calle Parras 22, 3ºB",
+    "guests": 3,
+    "bedrooms": 1,
+    "beds": 2,
+    "baths": 1,
+    "sqm": 45,
+    "type": "apartment",
+    "priceFrom": 65,
+    "lat": 36.7262,
+    "lng": -4.4196,
+    "features": [
+      "wifi",
+      "ac",
+      "kitchen"
+    ],
+    "description": {
+      "es": "Tal y como suena: de los apartamentos más bonitos del centro. Un dormitorio con sofá cama, cocina equipada y un encanto especial a un paso de Lagunillas y la plaza de la Merced.",
+      "en": "Just as it sounds: one of the cutest apartments in the centre. One bedroom with a sofa bed, equipped kitchen and a special charm steps from Lagunillas and Plaza de la Merced.",
+      "fr": "Comme son nom l'indique : l'un des plus jolis appartements du centre. Une chambre avec canapé-lit, cuisine équipée et un charme particulier à deux pas de Lagunillas et de la Plaza de la Merced.",
+      "it": "Proprio come suona: uno degli appartamenti più graziosi del centro. Una camera con divano letto, cucina attrezzata e un fascino speciale a due passi da Lagunillas e Plaza de la Merced."
+    },
+    "photos": [
+      {
+        "src": "/assets/img/apartamentos/cutest-apartment/01.jpg",
+        "alt": "Just the Cutest Apartment in Town"
+      },
+      {
+        "src": "/assets/img/apartamentos/cutest-apartment/02.jpg",
+        "alt": "Just the Cutest Apartment in Town — foto 2"
+      },
+      {
+        "src": "/assets/img/apartamentos/cutest-apartment/03.jpg",
+        "alt": "Just the Cutest Apartment in Town — foto 3"
+      },
+      {
+        "src": "/assets/img/apartamentos/cutest-apartment/04.jpg",
+        "alt": "Just the Cutest Apartment in Town — foto 4"
+      },
+      {
+        "src": "/assets/img/apartamentos/cutest-apartment/05.jpg",
+        "alt": "Just the Cutest Apartment in Town — foto 5"
+      },
+      {
+        "src": "/assets/img/apartamentos/cutest-apartment/06.jpg",
+        "alt": "Just the Cutest Apartment in Town — foto 6"
+      }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/1163813185155677887",
+    "booking": "",
+    "ical": {
+      "airbnb": "https://www.airbnb.es/calendar/ical/1163813185155677887.ics?t=7541eafd5b6c443da6fe1910a623ce44",
+      "booking": ""
+    }
+  },
+  {
+    "slug": "lovely-bright-studio",
+    "name": "Lovely Bright Studio",
+    "zone": "Centro Histórico",
+    "address": "Calle Tiro, Málaga",
+    "guests": 3,
+    "bedrooms": 1,
+    "beds": 2,
+    "baths": 1,
+    "sqm": 45,
+    "type": "studio",
+    "priceFrom": 65,
+    "lat": 36.7268,
+    "lng": -4.4185,
+    "features": [
+      "wifi",
+      "ac",
+      "kitchen"
+    ],
+    "description": {
+      "es": "Estudio luminoso y coqueto en el centro de Málaga, con sofá cama y cocina equipada. Pequeño, bonito y con la mejor ubicación para descubrir la ciudad a pie.",
+      "en": "A bright, charming studio in the centre of Málaga, with a sofa bed and an equipped kitchen. Small, pretty and with the best location to explore the city on foot.",
+      "fr": "Studio lumineux et charmant au centre de Málaga, avec canapé-lit et cuisine équipée. Petit, joli et idéalement situé pour découvrir la ville à pied.",
+      "it": "Monolocale luminoso e grazioso nel centro di Málaga, con divano letto e cucina attrezzata. Piccolo, carino e nella posizione migliore per scoprire la città a piedi."
+    },
+    "photos": [
+      {
+        "src": "/assets/img/apartamentos/lovely-bright-studio/01.jpg",
+        "alt": "Lovely Bright Studio"
+      },
+      {
+        "src": "/assets/img/apartamentos/lovely-bright-studio/02.jpg",
+        "alt": "Lovely Bright Studio — foto 2"
+      },
+      {
+        "src": "/assets/img/apartamentos/lovely-bright-studio/03.jpg",
+        "alt": "Lovely Bright Studio — foto 3"
+      },
+      {
+        "src": "/assets/img/apartamentos/lovely-bright-studio/04.jpg",
+        "alt": "Lovely Bright Studio — foto 4"
+      },
+      {
+        "src": "/assets/img/apartamentos/lovely-bright-studio/05.jpg",
+        "alt": "Lovely Bright Studio — foto 5"
+      },
+      {
+        "src": "/assets/img/apartamentos/lovely-bright-studio/06.jpg",
+        "alt": "Lovely Bright Studio — foto 6"
+      }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/1686331577912424216",
+    "booking": "",
+    "ical": {
+      "airbnb": "https://www.airbnb.es/calendar/ical/1686331577912424216.ics?t=93297755a20446c2ad3224f2c0c0f2f0",
+      "booking": ""
+    }
+  },
+  {
+    "slug": "studio-penthouse-terrace",
+    "name": "Lovely Studio-Penthouse superb terrace",
+    "zone": "Centro Histórico",
+    "address": "Calle Marcos Gómez 9, 2ºA",
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 1,
+    "baths": 1,
+    "sqm": 45,
+    "type": "penthouse",
+    "priceFrom": 65,
+    "lat": 36.727,
+    "lng": -4.4205,
+    "features": [
+      "wifi",
+      "ac",
+      "kitchen",
+      "terrace"
+    ],
+    "description": {
+      "es": "Estudio-ático con una terraza de 25 m² para ti solo, en el corazón de Málaga. Cocina equipada y ese plus de sol y cielo que cambia cualquier estancia. Perfecto para parejas.",
+      "en": "A studio-penthouse with a 25 m² terrace all to yourself, in the heart of Málaga. Equipped kitchen and that extra dose of sun and sky that changes any stay. Perfect for couples.",
+      "fr": "Studio-attique avec une terrasse de 25 m² rien que pour vous, au cœur de Málaga. Cuisine équipée et ce supplément de soleil et de ciel qui change tout séjour. Parfait pour les couples.",
+      "it": "Monolocale-attico con una terrazza di 25 m² tutta per te, nel cuore di Málaga. Cucina attrezzata e quel sole e cielo in più che cambia ogni soggiorno. Perfetto per coppie."
+    },
+    "photos": [
+      {
+        "src": "/assets/img/apartamentos/studio-penthouse-terrace/01.jpg",
+        "alt": "Lovely Studio-Penthouse superb terrace"
+      },
+      {
+        "src": "/assets/img/apartamentos/studio-penthouse-terrace/02.jpg",
+        "alt": "Lovely Studio-Penthouse superb terrace — foto 2"
+      },
+      {
+        "src": "/assets/img/apartamentos/studio-penthouse-terrace/03.jpg",
+        "alt": "Lovely Studio-Penthouse superb terrace — foto 3"
+      },
+      {
+        "src": "/assets/img/apartamentos/studio-penthouse-terrace/04.jpg",
+        "alt": "Lovely Studio-Penthouse superb terrace — foto 4"
+      },
+      {
+        "src": "/assets/img/apartamentos/studio-penthouse-terrace/05.jpg",
+        "alt": "Lovely Studio-Penthouse superb terrace — foto 5"
+      },
+      {
+        "src": "/assets/img/apartamentos/studio-penthouse-terrace/06.jpg",
+        "alt": "Lovely Studio-Penthouse superb terrace — foto 6"
+      }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/53019542",
+    "booking": "",
+    "ical": {
+      "airbnb": "https://www.airbnb.es/calendar/ical/53019542.ics?t=48e333ccf89e455b83ef8fe14d835b04",
+      "booking": ""
+    }
+  },
+  {
+    "slug": "luxury-duplex",
+    "name": "Luxury Duplex downtown Superb Terrace & Free Parking",
+    "zone": "Centro Histórico",
+    "address": "Calle Jinetes 14, esc. 4, 2ª planta",
+    "guests": 6,
+    "bedrooms": 3,
+    "beds": 4,
+    "baths": 2,
+    "sqm": 125,
+    "type": "apartment",
+    "priceFrom": 199,
+    "lat": 36.7243,
+    "lng": -4.422,
+    "features": [
+      "wifi",
+      "ac",
+      "kitchen",
+      "terrace",
+      "pool",
+      "parking"
+    ],
+    "description": {
+      "es": "Dúplex de lujo de 125 m² en el centro: tres dormitorios, dos baños, terraza privada, piscina comunitaria y parking incluido. La opción premium para grupos o familias grandes.",
+      "en": "A 125 m² luxury duplex in the centre: three bedrooms, two bathrooms, a private terrace, a shared pool and parking included. The premium choice for groups or large families.",
+      "fr": "Duplex de luxe de 125 m² au centre : trois chambres, deux salles de bain, terrasse privée, piscine commune et parking inclus. L'option premium pour groupes ou grandes familles.",
+      "it": "Duplex di lusso di 125 m² in centro: tre camere, due bagni, terrazza privata, piscina condominiale e parcheggio incluso. La scelta premium per gruppi o famiglie numerose."
+    },
+    "photos": [
+      {
+        "src": "/assets/img/apartamentos/luxury-duplex/01.jpg",
+        "alt": "Luxury Duplex downtown Superb Terrace & Free Parking"
+      },
+      {
+        "src": "/assets/img/apartamentos/luxury-duplex/02.jpg",
+        "alt": "Luxury Duplex downtown Superb Terrace & Free Parking — foto 2"
+      },
+      {
+        "src": "/assets/img/apartamentos/luxury-duplex/03.jpg",
+        "alt": "Luxury Duplex downtown Superb Terrace & Free Parking — foto 3"
+      },
+      {
+        "src": "/assets/img/apartamentos/luxury-duplex/04.jpg",
+        "alt": "Luxury Duplex downtown Superb Terrace & Free Parking — foto 4"
+      },
+      {
+        "src": "/assets/img/apartamentos/luxury-duplex/05.jpg",
+        "alt": "Luxury Duplex downtown Superb Terrace & Free Parking — foto 5"
+      },
+      {
+        "src": "/assets/img/apartamentos/luxury-duplex/06.jpg",
+        "alt": "Luxury Duplex downtown Superb Terrace & Free Parking — foto 6"
+      }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/708579312958374242",
+    "booking": "https://www.booking.com/hotel/es/luxury-duplex-downtown-superb-terrace-amp-free-parking.es.html",
+    "ical": {
+      "airbnb": "https://www.airbnb.es/calendar/ical/708579312958374242.ics?t=1378ffeea3524dbc80eebbd22b90488c",
+      "booking": "https://admin.booking.com/hotel/hoteladmin/ical.html?t=5ff04d86-1b77-42f9-89e1-2398185e5f96"
+    }
+  },
+  {
+    "slug": "station-loft",
+    "name": "The Station Loft",
+    "zone": "Centro Histórico",
+    "address": "Calle Góngora 24, bajo 3",
+    "guests": 4,
+    "bedrooms": 1,
+    "beds": 3,
+    "baths": 1,
+    "sqm": 55,
+    "type": "apartment",
+    "priceFrom": 79,
+    "lat": 36.7228,
+    "lng": -4.4265,
+    "features": [
+      "wifi",
+      "ac",
+      "kitchen"
+    ],
+    "description": {
+      "es": "Loft de estilo desenfadado cerca de la estación, con cama de matrimonio y litera (hasta 4 personas). Cocina equipada y muy buena conexión para entrar y salir de Málaga sin complicarte.",
+      "en": "A relaxed-style loft near the station, with a double bed and a bunk bed (up to 4 people). Equipped kitchen and great connections for getting in and out of Málaga with no fuss.",
+      "fr": "Loft au style décontracté près de la gare, avec lit double et lits superposés (jusqu'à 4 personnes). Cuisine équipée et très bonnes connexions pour entrer et sortir de Málaga sans tracas.",
+      "it": "Loft dallo stile informale vicino alla stazione, con letto matrimoniale e letto a castello (fino a 4 persone). Cucina attrezzata e ottimi collegamenti per entrare e uscire da Málaga senza pensieri."
+    },
+    "photos": [
+      {
+        "src": "/assets/img/apartamentos/station-loft/01.jpg",
+        "alt": "The Station Loft"
+      },
+      {
+        "src": "/assets/img/apartamentos/station-loft/02.jpg",
+        "alt": "The Station Loft — foto 2"
+      },
+      {
+        "src": "/assets/img/apartamentos/station-loft/03.jpg",
+        "alt": "The Station Loft — foto 3"
+      },
+      {
+        "src": "/assets/img/apartamentos/station-loft/04.jpg",
+        "alt": "The Station Loft — foto 4"
+      },
+      {
+        "src": "/assets/img/apartamentos/station-loft/05.jpg",
+        "alt": "The Station Loft — foto 5"
+      },
+      {
+        "src": "/assets/img/apartamentos/station-loft/06.jpg",
+        "alt": "The Station Loft — foto 6"
+      }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/1475348320728253542",
+    "booking": "",
+    "ical": {
+      "airbnb": "https://www.airbnb.es/calendar/ical/1475348320728253542.ics?t=5a4f97a08bb444ed97543611f18882eb",
+      "booking": ""
+    }
+  },
+  {
+    "slug": "perfect-place",
+    "name": "The perfect place to stay at",
+    "zone": "La Malagueta",
+    "address": "Paseo Reding 13, 1º Izq.",
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 1,
+    "baths": 1,
+    "sqm": 40,
+    "type": "apartment",
+    "priceFrom": 89,
+    "lat": 36.722,
+    "lng": -4.414,
+    "features": [
+      "wifi",
+      "ac",
+      "kitchen"
+    ],
+    "description": {
+      "es": "Un apartamento con encanto en el Paseo de Reding, entre el centro y la playa de la Malagueta. Un dormitorio, cocina equipada y la ubicación perfecta para pasear junto al mar.",
+      "en": "A charming apartment on Paseo de Reding, between the centre and La Malagueta beach. One bedroom, equipped kitchen and the perfect location for a stroll by the sea.",
+      "fr": "Appartement de charme sur le Paseo de Reding, entre le centre et la plage de la Malagueta. Une chambre, cuisine équipée et l'emplacement parfait pour se promener au bord de la mer.",
+      "it": "Appartamento di charme sul Paseo de Reding, tra il centro e la spiaggia della Malagueta. Una camera, cucina attrezzata e la posizione perfetta per passeggiare in riva al mare."
+    },
+    "photos": [
+      {
+        "src": "/assets/img/apartamentos/perfect-place/01.jpg",
+        "alt": "The perfect place to stay at"
+      },
+      {
+        "src": "/assets/img/apartamentos/perfect-place/02.jpg",
+        "alt": "The perfect place to stay at — foto 2"
+      },
+      {
+        "src": "/assets/img/apartamentos/perfect-place/03.jpg",
+        "alt": "The perfect place to stay at — foto 3"
+      },
+      {
+        "src": "/assets/img/apartamentos/perfect-place/04.jpg",
+        "alt": "The perfect place to stay at — foto 4"
+      },
+      {
+        "src": "/assets/img/apartamentos/perfect-place/05.jpg",
+        "alt": "The perfect place to stay at — foto 5"
+      },
+      {
+        "src": "/assets/img/apartamentos/perfect-place/06.jpg",
+        "alt": "The perfect place to stay at — foto 6"
+      }
+    ],
+    "airbnb": "https://www.airbnb.es/rooms/1421606727093424464",
+    "booking": "",
+    "ical": {
+      "airbnb": "https://www.airbnb.es/calendar/ical/1421606727093424464.ics?t=32e1538f301845618ec9d64d2cdf78ec",
+      "booking": ""
     }
   }
 ]

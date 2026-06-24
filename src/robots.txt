@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gvibes.quitiweb.com/sitemap.xml
+Sitemap: https://goodvibesapartments.com/sitemap.xml
