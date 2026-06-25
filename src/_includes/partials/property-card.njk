@@ -18,7 +18,9 @@
       <li>{{ prop.beds }} {{ t.property.beds1 if prop.beds == 1 else t.property.beds }}</li>
       {%- endif %}
       <li>{{ prop.baths }} {{ t.property.baths1 if prop.baths == 1 else t.property.baths }}</li>
+      {%- if prop.sqm %}
       <li>{{ prop.sqm }} {{ t.property.sqm }}</li>
+      {%- endif %}
     </ul>
     <p class="card-desc">{{ prop.description[lang] }}</p>
     <a class="btn btn-outline" href="{{ (langmeta[lang].propertiesDir + prop.slug + '/') | url }}">{{ t.properties.viewDetails }}</a>

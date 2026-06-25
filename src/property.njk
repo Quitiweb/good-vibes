@@ -45,7 +45,7 @@ eleventyComputed:
           <li>👥 {{ prop.guests }} {{ t.property.guests1 if prop.guests == 1 else t.property.guests }}</li>
           <li>🛏 {% if prop.bedrooms > 0 %}{{ prop.bedrooms }} {{ t.property.bedrooms1 if prop.bedrooms == 1 else t.property.bedrooms }}{% else %}{{ t.types.studio }}{% endif %} · {{ prop.beds }} {{ t.property.beds1 if prop.beds == 1 else t.property.beds }}</li>
           <li>🛁 {{ prop.baths }} {{ t.property.baths1 if prop.baths == 1 else t.property.baths }}</li>
-          <li>📐 {{ prop.sqm }} {{ t.property.sqm }}</li>
+          {%- if prop.sqm %}<li>📐 {{ prop.sqm }} {{ t.property.sqm }}</li>{%- endif %}
         </ul>
 
         <p class="property-desc">{{ prop.description[lang] }}</p>

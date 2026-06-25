@@ -1,6 +1,6 @@
 {
-  "es": { "home": "/", "propertiesDir": "/apartamentos/", "locale": "es_ES" },
-  "en": { "home": "/en/", "propertiesDir": "/en/apartments/", "locale": "en_GB" },
-  "fr": { "home": "/fr/", "propertiesDir": "/fr/appartements/", "locale": "fr_FR" },
-  "it": { "home": "/it/", "propertiesDir": "/it/appartamenti/", "locale": "it_IT" }
+  "es": { "home": "/", "propertiesDir": "/apartamentos/", "policies": "/politicas/", "locale": "es_ES" },
+  "en": { "home": "/en/", "propertiesDir": "/en/apartments/", "policies": "/en/policies/", "locale": "en_GB" },
+  "fr": { "home": "/fr/", "propertiesDir": "/fr/appartements/", "policies": "/fr/politiques/", "locale": "fr_FR" },
+  "it": { "home": "/it/", "propertiesDir": "/it/appartamenti/", "policies": "/it/politiche/", "locale": "it_IT" }
 }

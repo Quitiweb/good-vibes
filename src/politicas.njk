@@ -1,0 +1,26 @@
+---
+pagination:
+  data: site.langs
+  size: 1
+  alias: lang
+  addAllPagesToCollections: true
+permalink: "{{ langmeta[lang].policies }}"
+layout: layouts/base.njk
+eleventyComputed:
+  pageTitle: "{{ i18n[lang].policies.title }} — Good Vibes Apartments"
+  altUrls:
+    es: "/politicas/"
+    en: "/en/policies/"
+    fr: "/fr/politiques/"
+    it: "/it/politiche/"
+---
+{% set t = i18n[lang] %}
+<section class="section">
+  <div class="container legal-page">
+    <h1>{{ t.policies.title }}</h1>
+    <h2>{{ t.policies.cancelTitle }}</h2>
+    <p>{{ t.policies.cancelText }}</p>
+    <h2>{{ t.policies.privacyTitle }}</h2>
+    <p>{{ t.policies.privacyText }}</p>
+  </div>
+</section>

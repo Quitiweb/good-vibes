@@ -15,7 +15,8 @@
         {% set blogLink = '/' + lang + '/blog/' %}
       {% endif %}
       <a href="{{ blogLink | url }}">{{ t.footer.blog }}</a>
-
+      <a href="{{ langmeta[lang].home | url }}#faqs">{{ t.nav.faqs }}</a>
+      <a href="{{ langmeta[lang].policies | url }}">{{ t.nav.policies }}</a>
     </nav>
     <div class="footer-contact">
       <a href="mailto:{{ site.email }}">{{ site.email }}</a>
@@ -24,6 +25,7 @@
     </div>
   </div>
   <div class="container footer-bottom">
+    <p>{{ t.footer.legal }}</p>
     <p>© 2026 {{ site.name }} · {{ t.footer.rights }}</p>
   </div>
 </footer>

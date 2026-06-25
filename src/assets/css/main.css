@@ -500,3 +500,34 @@ h2 { font-size: 1.5rem; }
   font-size: 0.8rem;
   color: #8fa6ad;
 }
+
+/* --- Mejoras 2/6/8/10/11 (FREE) --- */
+/* Logo: tagline "Since 2016" bajo el wordmark */
+.logo-text{display:flex;flex-direction:column;line-height:1.05;}
+.logo-tag{font-size:.56rem;font-weight:600;letter-spacing:.2px;color:var(--muted);text-transform:none;margin-top:1px;}
+@media (max-width:760px){ .logo-tag{display:none;} }
+
+/* Propietarios: subtítulo, servicios en 2 columnas y honorarios */
+.owners-sub{margin:1.1rem 0 .4rem;font-size:1.05rem;}
+.checklist-2col{columns:2;column-gap:1.4rem;}
+@media (max-width:520px){ .checklist-2col{columns:1;} }
+.owners-fee{margin:1rem 0 1.2rem;font-weight:700;color:var(--dark);background:var(--bg-alt);
+  border-left:3px solid var(--primary);padding:.6rem .9rem;border-radius:8px;}
+
+/* FAQs (acordeón nativo) */
+.faq-wrap{max-width:760px;}
+.faq-list{margin-top:1.2rem;display:flex;flex-direction:column;gap:.6rem;}
+.faq{background:#fff;border:1px solid var(--border);border-radius:10px;padding:.2rem .4rem;box-shadow:var(--shadow);}
+.faq summary{cursor:pointer;font-weight:700;color:var(--dark);padding:.8rem .9rem;list-style:none;}
+.faq summary::-webkit-details-marker{display:none;}
+.faq summary::after{content:"+";float:right;color:var(--primary);font-weight:800;}
+.faq[open] summary::after{content:"–";}
+.faq p{margin:0 .9rem .9rem;color:var(--text);}
+
+/* Página legal (políticas) */
+.legal-page{max-width:760px;}
+.legal-page h2{margin-top:1.6rem;font-size:1.25rem;}
+.legal-page p{color:var(--text);}
+
+/* Razón social en el footer */
+.footer-bottom p{margin:.2rem 0;}

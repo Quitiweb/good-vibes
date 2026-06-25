@@ -1224,5 +1224,61 @@
       "airbnb": "https://www.airbnb.es/calendar/ical/1421606727093424464.ics?t=32e1538f301845618ec9d64d2cdf78ec",
       "booking": ""
     }
+  },
+  {
+    "slug": "cristo-epidemia",
+    "name": "Good Vibes Cristo de la Epidemia",
+    "zone": "Centro Histórico",
+    "address": "Calle Cristo de la Epidemia 1, 5ºA",
+    "guests": 5,
+    "bedrooms": 5,
+    "beds": 5,
+    "baths": 2,
+    "type": "apartment",
+    "lat": 36.7288,
+    "lng": -4.4165,
+    "features": [
+      "wifi",
+      "kitchen",
+      "balcony"
+    ],
+    "description": {
+      "es": "Apartamento amplio en la zona de Cristo de la Epidemia que se alquila por habitaciones (5 habitaciones, 2 baños). Ideal para estancias largas, estudiantes o grupos. Salón común, cocina equipada y balcón con vistas al monte. Consúltanos precios y disponibilidad.",
+      "en": "A spacious apartment in the Cristo de la Epidemia area, rented by the room (5 rooms, 2 bathrooms). Ideal for long stays, students or groups. Shared living room, equipped kitchen and a balcony with hillside views. Ask us about prices and availability.",
+      "fr": "Grand appartement dans le quartier de Cristo de la Epidemia, loué à la chambre (5 chambres, 2 salles de bain). Idéal pour les longs séjours, étudiants ou groupes. Salon commun, cuisine équipée et balcon avec vue sur la colline. Demandez-nous prix et disponibilités.",
+      "it": "Ampio appartamento nella zona di Cristo de la Epidemia, affittato a stanze (5 camere, 2 bagni). Ideale per soggiorni lunghi, studenti o gruppi. Soggiorno comune, cucina attrezzata e balcone con vista sulla collina. Chiedici prezzi e disponibilità."
+    },
+    "photos": [
+      {
+        "src": "/assets/img/apartamentos/cristo-epidemia/01.jpg",
+        "alt": "Salón común"
+      },
+      {
+        "src": "/assets/img/apartamentos/cristo-epidemia/02.jpg",
+        "alt": "Balcón con vistas"
+      },
+      {
+        "src": "/assets/img/apartamentos/cristo-epidemia/03.jpg",
+        "alt": "Dormitorio"
+      },
+      {
+        "src": "/assets/img/apartamentos/cristo-epidemia/04.jpg",
+        "alt": "Cocina equipada"
+      },
+      {
+        "src": "/assets/img/apartamentos/cristo-epidemia/05.jpg",
+        "alt": "Habitación con escritorio"
+      },
+      {
+        "src": "/assets/img/apartamentos/cristo-epidemia/06.jpg",
+        "alt": "Habitación"
+      }
+    ],
+    "airbnb": "",
+    "booking": "",
+    "ical": {
+      "airbnb": "",
+      "booking": ""
+    }
   }
 ]
